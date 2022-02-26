@@ -30,7 +30,9 @@ export const NavbarContainer = styled.div`
 `;
 
 export const NavLogo = styled(LinkR)`
-    color: red;
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
     justify-self: flex-start;
     cursor: pointer;
     font-size: 1.5rem;
@@ -50,8 +52,7 @@ export const MobileIcon = styled.div`
         color: #fff;
         top: 0;
         right: 0;
-        transform: translate(-100%, 100%);
-        font-size: 1.8rem;
+        transform: translate(-100%, 85%);
         cursor: pointer;
     }
 `;
@@ -61,7 +62,7 @@ export const NavMenu = styled.ul`
     align-items: center;
     list-style: none;
     text-align: center;
-    margin-right: -22px;
+    /* margin-right: -22px; */
 
     @media screen and (max-width: 768px) {
         display: none;
@@ -73,6 +74,8 @@ export const NavItem = styled.li`
 `;
 
 export const NavLinks = styled(LinkS)`
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+    font-family: 'Poppins', sans-serif;
     color: #fff;
     display: flex;
     align-items: center;
@@ -86,3 +89,16 @@ export const NavLinks = styled(LinkS)`
     }
 `;
 
+export const NavIllo = styled.div`
+    display: flex;
+    align-items: center;
+    margin-right: 24px;
+
+    @media screen and (max-width: 768px) {
+        display: none;
+    }
+`;
+
+export const Illo = styled.div`
+    color: #fff;
+`
