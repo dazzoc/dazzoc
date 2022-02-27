@@ -28,14 +28,14 @@
   position: relative;
   right: 13px;
   bottom: 5px;
-  animation: wave .7s infinite;
+  animation: wave .6s infinite;
   transition: .7s ease-in-out;
   animation-play-state: paused;
 }
 
 .duckarm:hover {
   animation-play-state: running;
-  transition: .7s ease-in-out;
+  transition: .6s ease-in-out;
 }
 
 @keyframes wave {
