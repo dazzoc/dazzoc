@@ -1,4 +1,7 @@
 import MenuIcon from '@mui/icons-material/Menu';
+import logo from '../../images/dazzo-logo.svg';
+import duckhead from '../../images/duck-head.svg';
+import duckarm from '../../images/duck-arm.svg';
 import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavIllo, Illo } from './NavbarElements';
 
 
@@ -7,7 +10,9 @@ const Navbar = ({ toggle }) => {
     <>
         <Nav>
             <NavbarContainer>
-                <NavLogo to="/">Dazzo</NavLogo>
+                <NavLogo to="/">
+                    <img src={logo} alt="Logo" className="logo"/>
+                </NavLogo>
                 <MobileIcon onClick={toggle}>
                     <MenuIcon fontSize="large"/>
                 </MobileIcon>
@@ -23,7 +28,10 @@ const Navbar = ({ toggle }) => {
                     </NavItem>
                 </NavMenu>
                 <NavIllo>
-                    <Illo>Illo</Illo>
+                    <Illo>
+                    <img src={duckhead} alt="Logo" className="duckhead"/>
+                    <img src={duckarm} alt="Logo" className="duckarm"/>
+                    </Illo>
                 </NavIllo>
             </NavbarContainer>
         </Nav>

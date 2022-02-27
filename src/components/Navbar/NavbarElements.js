@@ -4,7 +4,7 @@ import { Link as LinkS } from 'react-scroll';
 
 export const Nav = styled.nav`
     height: 100px;
-    background-color: #000;
+    background-color: #fff;
     /* margin-top: -80px; */
     display: flex;
     justify-content: center;
@@ -27,20 +27,17 @@ export const NavbarContainer = styled.div`
     width: 100%;
     padding: 0 24px;
     max-width: 1100px;
+    border-bottom: 3.5px solid #000;
 `;
 
 export const NavLogo = styled(LinkR)`
-    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-    font-family: 'Poppins', sans-serif;
-    color: #fff;
     justify-self: flex-start;
     cursor: pointer;
-    font-size: 1.5rem;
     display: flex;
     align-items: center;
     margin-left: 24px;
-    font-weight: bold;
     text-decoration: none;
+    border-right: 3.5px solid #000;
 `;
 
 export const MobileIcon = styled.div`
@@ -49,7 +46,7 @@ export const MobileIcon = styled.div`
     @media screen and (max-width: 768px) {
         display: block;
         position: absolute;
-        color: #fff;
+        color: #000;
         top: 0;
         right: 0;
         transform: translate(-100%, 85%);
@@ -62,7 +59,6 @@ export const NavMenu = styled.ul`
     align-items: center;
     list-style: none;
     text-align: center;
-    /* margin-right: -22px; */
 
     @media screen and (max-width: 768px) {
         display: none;
@@ -70,29 +66,32 @@ export const NavMenu = styled.ul`
 `;
 
 export const NavItem = styled.li`
-    height: 100px;
+    height: 30px;
 `;
 
 export const NavLinks = styled(LinkS)`
-    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-    font-family: 'Poppins', sans-serif;
-    color: #fff;
+    @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap');
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: #000;
     display: flex;
     align-items: center;
     text-decoration: none;
     padding: 0 1rem;
-    height: 100%;
+    height: 30px;
     cursor: pointer;
 
     &.active {
-        border-bottom: 3px solid dodgerblue;
+        border-bottom: 3px solid #000;
     }
 `;
 
 export const NavIllo = styled.div`
     display: flex;
     align-items: center;
-    margin-right: 24px;
+    margin-right: 4px;
+    border-left: 3.5px solid #000;
 
     @media screen and (max-width: 768px) {
         display: none;
@@ -100,5 +99,7 @@ export const NavIllo = styled.div`
 `;
 
 export const Illo = styled.div`
-    color: #fff;
+    color: #000;
+    display: flex;
+    cursor: pointer;
 `

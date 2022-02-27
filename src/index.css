@@ -6,3 +6,46 @@
   padding: 0;
   font-family: 'Roboto', sans-serif;
 }
+
+.logo {
+  width: 100px;
+  transition: all 0.2s ease-in-out;
+  margin-right: 40px;
+}
+
+.logo:hover {
+  transform: scale(1.1, 1.1);
+  transition: all 0.2s ease-in-out;
+}
+
+.duckhead {
+  width: 50px;
+  margin-left: 40px;
+}
+
+.duckarm {
+  width: 32px;
+  position: relative;
+  right: 13px;
+  bottom: 5px;
+  animation: wave .7s infinite;
+  transition: .7s ease-in-out;
+  animation-play-state: paused;
+}
+
+.duckarm:hover {
+  animation-play-state: running;
+  transition: .7s ease-in-out;
+}
+
+@keyframes wave {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(12deg);
+    position: relative;
+    bottom: 2px;
+    right: 10px;
+  }
+}
