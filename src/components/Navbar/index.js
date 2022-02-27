@@ -29,8 +29,10 @@ const Navbar = ({ toggle }) => {
                 </NavMenu>
                 <NavIllo>
                     <Illo>
-                    <img src={duckhead} alt="Logo" className="duckhead"/>
-                    <img src={duckarm} alt="Logo" className="duckarm"/>
+                        <div className="illo-container">
+                            <img src={duckhead} alt="Logo" className="duckhead"/>
+                            <img src={duckarm} alt="Logo" className="duckarm"/>
+                        </div>
                     </Illo>
                 </NavIllo>
             </NavbarContainer>

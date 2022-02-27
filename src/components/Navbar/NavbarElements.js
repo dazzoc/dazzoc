@@ -5,7 +5,7 @@ import { Link as LinkS } from 'react-scroll';
 export const Nav = styled.nav`
     height: 100px;
     background-color: #fff;
-    /* margin-top: -80px; */
+    /* margin-top: -100px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,7 +27,9 @@ export const NavbarContainer = styled.div`
     width: 100%;
     padding: 0 24px;
     max-width: 1100px;
-    border-bottom: 3.5px solid #000;
+    border-bottom: 3.5px solid #3c6794;
+    border-left: 3.5px solid #3c6794;
+    border-right: 3.5px solid #3c6794;
 `;
 
 export const NavLogo = styled(LinkR)`
@@ -37,7 +39,7 @@ export const NavLogo = styled(LinkR)`
     align-items: center;
     margin-left: 24px;
     text-decoration: none;
-    border-right: 3.5px solid #000;
+    border-right: 3.5px solid #3c6794;
 `;
 
 export const MobileIcon = styled.div`
@@ -46,7 +48,7 @@ export const MobileIcon = styled.div`
     @media screen and (max-width: 768px) {
         display: block;
         position: absolute;
-        color: #000;
+        color: #3c6794;
         top: 0;
         right: 0;
         transform: translate(-100%, 85%);
@@ -74,7 +76,7 @@ export const NavLinks = styled(LinkS)`
     font-family: 'Nunito', sans-serif;
     font-weight: 500;
     font-size: 1.1rem;
-    color: #000;
+    color: #3c6794;
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -84,7 +86,7 @@ export const NavLinks = styled(LinkS)`
     transition: all 0.2s ease-in-out;
 
     &.active {
-        border-bottom: 3px solid #000;
+        border-bottom: 3px solid #3c6794;
     }
 
     &:hover {
@@ -97,7 +99,7 @@ export const NavIllo = styled.div`
     display: flex;
     align-items: center;
     margin-right: 4px;
-    border-left: 3.5px solid #000;
+    border-left: 3.5px solid #3c6794;
 
     @media screen and (max-width: 768px) {
         display: none;
@@ -105,7 +107,7 @@ export const NavIllo = styled.div`
 `;
 
 export const Illo = styled.div`
-    color: #000;
+    color: #3c6794;
     display: flex;
     cursor: pointer;
 `
