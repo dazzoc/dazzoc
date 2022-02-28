@@ -1,5 +1,4 @@
-import { Description } from '@mui/icons-material';
-import { AboutContainer, AboutBg, AboutContent, Row1, H1, Row2, Name, Title } from './AboutElements';
+import { AboutContainer, AboutBg, AboutContent, Row1, Descrip, Row2, Name, Title } from './AboutElements';
 
 function About() {
   return (
@@ -7,9 +6,9 @@ function About() {
         <AboutBg>
             <AboutContent>
                 <Row1>
-                    <H1>
+                    <Descrip>
                         100% friendly and 110% hardworker. Chris has had a lifetime passion to make things look good and have fun at the same time. With a background in illustration and design, he recently found programming and web development where he is learning everyday.
-                    </H1>
+                    </Descrip>
                 </Row1>
                 <Row2>
                     <Name>Chris Dazzo</Name>

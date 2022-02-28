@@ -11,7 +11,8 @@ export const HeroContainer = styled.div`
 export const HeroBg = styled.div`
     width: 1100px;
     height: 800px;
-    background: gray;
+    background: #fff;
+    border-bottom: 3px solid #3c6794;
 `;
 
 export const HeroContent = styled.div`

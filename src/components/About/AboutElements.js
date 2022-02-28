@@ -12,6 +12,7 @@ export const AboutBg = styled.div`
     width: 1100px;
     height: 800px;
     background: #fff;
+    border-bottom: 3px solid #3c6794;
 `;
 
 export const AboutContent = styled.div`
@@ -31,7 +32,7 @@ export const Row1 = styled.h1`
     color: #3c6794;
 `;
 
-export const H1 = styled.h1`
+export const Descrip = styled.p`
     @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap');
     font-family: 'Poppins', sans-serif;
     font-size: 2.5rem;
@@ -50,7 +51,7 @@ export const Row2 = styled.div`
 `;
 
 export const Name = styled.h5`
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 `;
 
 export const Title = styled.p`

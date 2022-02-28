@@ -78,3 +78,18 @@ a {
 .Contact-links {
   margin: 5px;
 }
+
+.nomnom-logo {
+  filter: invert(37%) sepia(13%) saturate(2224%) hue-rotate(170deg) brightness(92%) contrast(80%);
+  width: 250px;
+}
+
+.cue-logo {
+  filter: invert(37%) sepia(13%) saturate(2224%) hue-rotate(170deg) brightness(92%) contrast(80%);
+  width: 250px;
+}
+
+.docet-logo {
+  filter: invert(37%) sepia(13%) saturate(2224%) hue-rotate(170deg) brightness(92%) contrast(80%);
+  width: 250px;
+}
