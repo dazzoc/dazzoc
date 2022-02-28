@@ -7,6 +7,11 @@
   font-family: 'Roboto', sans-serif;
 }
 
+a {
+  color: #3c6794;
+  text-decoration: none;
+}
+
 .logo {
   width: 100px;
   transition: all 0.2s ease-in-out;
@@ -68,4 +73,8 @@
 .resume-sidebar {
   color: #fff;
   text-decoration: none;
+}
+
+.Contact-links {
+  margin: 5px;
 }
