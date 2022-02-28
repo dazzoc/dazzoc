@@ -5,6 +5,7 @@ import HeroSection from "../components/HeroSection";
 import About from "../components/About";
 import Projects from "../components/Projects";
 import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -20,6 +21,7 @@ const Home = () => {
         <About/>
         <Projects/>
         <Contact/>
+        <Footer />
     </>
   )
 }

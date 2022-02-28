@@ -9,7 +9,7 @@ function Contact() {
         <ContactBg>
             <ContactContent>
                 <Col1>
-                    <Header>Say Hello!</Header>
+                    <Header>Hello!</Header>
                     <SubHeader>
                         I'm always open to chat about cool stuff like design, Illustration or Development. Drop me a Line or follow me on Socal Media!
                     </SubHeader>
@@ -28,7 +28,7 @@ function Contact() {
                             <Label>Email:</Label>
                             <Input type="text" placeholder='Jimmy@freesmells.com'></Input>
                             <Label>Comment:</Label>
-                            <Comment type="text" placeholder='Hey we got the smells!'></Comment>
+                            <Comment type="text" placeholder='"Do You Like Day Old Bread?"'></Comment>
                             <Submit type="submit" value="Submit!" />
                         </Form>
                     </FormWrapper>

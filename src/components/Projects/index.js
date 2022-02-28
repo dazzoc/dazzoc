@@ -1,5 +1,6 @@
 import nomnom from '../../images/NomNom-logo.svg';
 import cue from '../../images/cue-01.svg';
+import docet from '../../images/DOCET-head-01.svg';
 import { ProjectsContainer, ProjectsBg, ProjectsContent, Top, Box, WorkTitle, WorkContainer, Worklink, Hex } from './ProjectElements';
 
 function Projects() {
@@ -20,7 +21,7 @@ function Projects() {
                         <img src={ cue } alt="Cue" className='cue-logo'/>
                     </Worklink>
                     <Worklink href='https://docet.herokuapp.com/' target="_blank" rel="noreferrer">
-                        <img src={ nomnom } alt="Docet" className='docet-logo'/>
+                        <img src={ docet } alt="Docet" className='docet-logo'/>
                     </Worklink>
                     <Worklink href='https://dazzoc.github.io/Hex-Color-App/' target="_blank" rel="noreferrer">
                         <Hex>HEX: <br />

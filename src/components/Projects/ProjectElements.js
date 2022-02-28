@@ -38,7 +38,11 @@ export const Box = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-`
+
+    @media screen and (max-width: 768px) {
+        margin-bottom: 15px;
+    }
+`;
 
 export const WorkTitle = styled.h1`
     @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap');
@@ -56,7 +60,10 @@ export const WorkContainer = styled.div`
     width: 70%;
     height: 100%;
 
-    
+    @media screen and (max-width: 768px) {
+        display: flex;
+        flex-direction: column;
+    }
 `;
 
 export const Worklink = styled.a`
@@ -75,4 +82,8 @@ export const Worklink = styled.a`
 
 export const Hex = styled.h1`
     font-size: 4rem;
+
+    @media screen and (max-width: 768px) {
+        font-size: 2.5rem;
+    }
 `;
