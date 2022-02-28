@@ -1,8 +1,14 @@
-
+import { ProjectsContainer, ProjectsBg, ProjectsContent } from './ProjectElements';
 
 function Projects() {
   return (
-    <div>Projects</div>
+    <ProjectsContainer>
+        <ProjectsBg>
+            <ProjectsContent>
+
+            </ProjectsContent>
+        </ProjectsBg>
+    </ProjectsContainer>
   )
 }
 

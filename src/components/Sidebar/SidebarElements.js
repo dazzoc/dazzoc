@@ -39,11 +39,11 @@ export const SidebarWrapper = styled.div`
 export const SidebarMenu = styled.ul`
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, 180px);
+    grid-template-rows: repeat(4, 160px);
     text-align: center;
 
     @media screen and (max-width: 480px) {
-        grid-template-rows: repeat(3, 140px);
+        grid-template-rows: repeat(4, 130px);
     }
 `;
 
@@ -63,3 +63,18 @@ export const SidebarLink = styled(LinkS)`
         transition: 0.2s ease-in-out;
     }
 `;
+
+export const SidebarResumeLink = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    list-style: none;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+
+    &:hover {
+        transform: scale(1.1, 1.1);
+        transition: 0.2s ease-in-out;
+    }
+`

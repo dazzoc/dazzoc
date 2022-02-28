@@ -1,8 +1,14 @@
-
+import { HeroContainer, HeroBg, HeroContent } from './HeroElements';
 
 function HeroSection() {
   return (
-    <div>HeroSection</div>
+    <HeroContainer>
+        <HeroBg>
+            <HeroContent>
+
+            </HeroContent>
+        </HeroBg>
+    </HeroContainer>
   )
 }
 

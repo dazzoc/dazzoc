@@ -1,8 +1,14 @@
-
+import { AboutContainer, AboutBg, AboutContent } from './AboutElements';
 
 function About() {
   return (
-    <div>About</div>
+    <AboutContainer>
+        <AboutBg>
+            <AboutContent>
+
+            </AboutContent>
+        </AboutBg>
+    </AboutContainer>
   )
 }
 

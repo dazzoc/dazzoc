@@ -95,6 +95,21 @@ export const NavLinks = styled(LinkS)`
     }
 `;
 
+export const NavResumeLink = styled.div`
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 30px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+        transform: scale(1.1, 1.1);
+        transition: all 0.2s ease-in-out;
+    }
+`
+
 export const NavIllo = styled.div`
     display: flex;
     align-items: center;

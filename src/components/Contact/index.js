@@ -1,8 +1,14 @@
-
+import { ContactContainer, ContactBg, ContactContent } from './ContactElements';
 
 function Contact() {
   return (
-    <div>Contact</div>
+    <ContactContainer>
+        <ContactBg>
+            <ContactContent>
+
+            </ContactContent>
+        </ContactBg>
+    </ContactContainer>
   )
 }
 

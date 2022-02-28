@@ -55,3 +55,17 @@
     transform: rotate(0deg);
   }
 }
+
+.resume-link {
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap');
+  font-family: 'Nunito', sans-serif;
+  font-weight: 500;
+  color: #3c6794;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.resume-sidebar {
+  color: #fff;
+  text-decoration: none;
+}
