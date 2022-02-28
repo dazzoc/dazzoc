@@ -106,15 +106,21 @@ a {
 }
 
 .footer-duckhead {
-  width: 150px;
+  width: 120px;
   filter: invert(37%) sepia(13%) saturate(2224%) hue-rotate(170deg) brightness(92%) contrast(80%);
   position: relative;
-  top: 125px;
-  left: 180px;
+  top: 100px;
+  left: 130px;
   transition: all 0.3s ease-in-out;
 }
 
 .footer-duckhead:hover {
-  top: 55px;
+  top: 35px;
   transition: all 0.1s ease-in-out;
+}
+
+.footer-links {
+  color: #f9f9f9;
+  margin: 10px 10px 5px 10px;
+  cursor: pointer;
 }
