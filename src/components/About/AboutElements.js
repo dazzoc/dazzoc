@@ -6,6 +6,18 @@ export const AboutContainer = styled.div`
     align-items: center;
     height: 800px;
     z-index: 1;
+
+    @media screen and (max-width: 768px) {
+        height: 650px;
+    }
+
+    @media screen and (max-width: 520px) {
+        height: 600px;
+    }
+
+    @media screen and (max-width: 480px) {
+        height: 500px;
+    }
 `;
 
 export const AboutBg = styled.div`
@@ -13,6 +25,18 @@ export const AboutBg = styled.div`
     height: 800px;
     background: #fff;
     border-bottom: 3px solid #3c6794;
+
+    @media screen and (max-width: 768px) {
+        height: 650px;
+    }
+
+    @media screen and (max-width: 520px) {
+        height: 600px;
+    }
+
+    @media screen and (max-width: 480px) {
+        height: 500px;
+    }
 `;
 
 export const AboutContent = styled.div`
@@ -42,19 +66,15 @@ export const Descrip = styled.p`
     }
 
     @media screen and (max-width: 768px) {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     @media screen and (max-width: 520px) {
-        font-size: 1.8rem;
+        font-size: 1.2rem;
     }
 
     @media screen and (max-width: 480px) {
-        font-size: 1.6rem;
-    }
-
-    @media screen and (max-width: 350px) {
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
 `;
 

@@ -44,6 +44,14 @@ export const Col1 = styled.div`
         height: 200px;
         border-radius: 10px 10px 0 0;
     }
+
+    @media screen and (max-width: 420px) {
+        width: 300px;
+    }
+
+    @media screen and (max-width: 320px) {
+        width: 270px;
+    }
 `;
 
 export const Header = styled.h1`
@@ -65,6 +73,16 @@ export const SubHeader = styled.p`
 
     @media screen and (max-width: 768px) {
         font-size: 1rem;
+    }
+
+    @media screen and (max-width: 420px) {
+        width: 260px;
+        font-size: 14px;
+        margin: 10px 0;
+    }
+
+    @media screen and (max-width: 320px) {
+        width: 240px;
     }
 `;
 
@@ -90,6 +108,14 @@ export const Col2 = styled.div`
         border-radius: 0 0 10px 10px;
         padding: 20px;
     }
+
+    @media screen and (max-width: 420px) {
+        width: 300px;
+    }
+
+    @media screen and (max-width: 320px) {
+        width: 270px;
+    }
 `;
 
 export const FormWrapper = styled.div`
@@ -98,6 +124,14 @@ export const FormWrapper = styled.div`
     background: #3c6794;
     padding: 20px;
     border-radius: 8px;
+
+    @media screen and (max-width: 420px) {
+        width: 270px;
+    }
+
+    @media screen and (max-width: 320px) {
+        width: 240px;
+    }
 `;
 
 export const Form = styled.form`
@@ -148,4 +182,11 @@ export const Submit = styled.input`
     background: #f9f9f9;
     border-radius: 50px;
     cursor: pointer;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+        background-color: #ffa0cd;
+        transition: all 0.2s ease-in-out;
+        color: #fff;
+    }
 `;

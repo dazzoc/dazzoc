@@ -61,6 +61,52 @@ a {
   }
 }
 
+.work-horses {
+  width: 500px;
+  z-index: 20;
+}
+
+.guy {
+  position: relative;
+  width: 180px;
+  right: 20px;
+  bottom: 10px
+}
+
+.worklight1 {
+  position: relative;
+  width: 52px;
+  height: 52px;
+  right: 433px;
+  top: 15px;
+  border-radius: 50px;
+  background-color: #feb302;
+  animation: worklights 2s infinite;
+}
+
+.worklight2 {
+  position: relative;
+  width: 54px;
+  height: 54px;
+  right: 185px;
+  top: 8px;
+  border-radius: 50px;
+  background-color: #feb302;
+  animation: worklights 3s infinite;
+}
+
+@keyframes worklights {
+  0%{
+    background-color: #feb302; 
+  }
+  50% {
+    background-color: #f9ee6e;
+  }
+  100% {
+    background-color: #feb302; 
+  }
+}
+
 .resume-link {
   @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap');
   font-family: 'Nunito', sans-serif;
