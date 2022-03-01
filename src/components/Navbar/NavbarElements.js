@@ -32,7 +32,7 @@ export const NavbarContainer = styled.div`
     border-right: 3.5px solid #3c6794;
 `;
 
-export const NavLogo = styled(LinkR)`
+export const NavLogo = styled(LinkS)`
     justify-self: flex-start;
     cursor: pointer;
     display: flex;
@@ -80,7 +80,7 @@ export const NavLinks = styled(LinkS)`
     display: flex;
     align-items: center;
     text-decoration: none;
-    padding: 0 1rem;
+    margin: 0 1rem;
     height: 30px;
     cursor: pointer;
     transition: all 0.2s ease-in-out;

@@ -2,7 +2,7 @@ import { HeroContainer, HeroBg, HeroContent } from './HeroElements';
 
 function HeroSection() {
   return (
-    <HeroContainer>
+    <HeroContainer id='hero'>
         <HeroBg>
             <HeroContent>
 

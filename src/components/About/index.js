@@ -2,7 +2,7 @@ import { AboutContainer, AboutBg, AboutContent, Row1, Descrip, Row2, Name, Title
 
 function About() {
   return (
-    <AboutContainer>
+    <AboutContainer id='about'>
         <AboutBg>
             <AboutContent>
                 <Row1>

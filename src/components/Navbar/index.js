@@ -10,7 +10,7 @@ const Navbar = ({ toggle }) => {
     <>
         <Nav>
             <NavbarContainer>
-                <NavLogo to="/">
+                <NavLogo to="hero" activeClass='active' spy={true} smooth={true} offset={-100} duration={500}>
                     <img src={logo} alt="Logo" className="logo"/>
                 </NavLogo>
                 <MobileIcon onClick={toggle}>
@@ -18,13 +18,13 @@ const Navbar = ({ toggle }) => {
                 </MobileIcon>
                 <NavMenu>
                     <NavItem>
-                        <NavLinks to='about'>About</NavLinks>
+                        <NavLinks to='about' activeClass='active' spy={true} smooth={true} offset={-100} duration={500} >About</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to='work'>Work</NavLinks>
+                        <NavLinks to='work' activeClass='active' spy={true} smooth={true} offset={-100} duration={500} >Work</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to='contact'>Contact</NavLinks>
+                        <NavLinks to='contact' activeClass='active' spy={true} smooth={true} offset={-100} duration={500} >Contact</NavLinks>
                     </NavItem>
                     <NavItem>
                         <NavResumeLink>

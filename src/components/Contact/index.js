@@ -5,7 +5,7 @@ import { ContactContainer, ContactBg, ContactContent, Col1, Col2, Header, SubHea
 
 function Contact() {
   return (
-    <ContactContainer>
+    <ContactContainer id='contact'>
         <ContactBg>
             <ContactContent>
                 <Col1>

@@ -5,7 +5,7 @@ import { ProjectsContainer, ProjectsBg, ProjectsContent, Top, Box, WorkTitle, Wo
 
 function Projects() {
   return (
-    <ProjectsContainer>
+    <ProjectsContainer id='work'>
         <ProjectsBg>
             <ProjectsContent>
                 <Top>
