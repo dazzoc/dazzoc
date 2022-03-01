@@ -1,12 +1,20 @@
 import workhorses from '../../images/work-horses.svg';
 import guy from '../../images/guy.svg';
-import { HeroContainer, HeroBg, HeroContent, BottomRow, Workhorses, Guy } from './HeroElements';
+import crane from '../../images/crane-01.svg';
+import cranearm from '../../images/crane-arm.svg';
+import hook from '../../images/hook.svg';
+import { HeroContainer, HeroBg, HeroContent, TopRow, BottomRow, Workhorses, Guy } from './HeroElements';
 
 function HeroSection() {
   return (
     <HeroContainer id='hero'>
         <HeroBg>
             <HeroContent>
+                <TopRow>
+                    <img src={hook} alt="hook" className='hook'/>
+                    <img src={cranearm} alt="cranearm" className='crane-arm'/>
+                    <img src={crane} alt="crane" className='crane'/>
+                </TopRow>
                 <BottomRow>
                     <Guy>
                         <img src={guy} alt="guy" className='guy'/>
