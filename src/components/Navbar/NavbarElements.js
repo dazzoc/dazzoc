@@ -5,7 +5,6 @@ import { Link as LinkS } from 'react-scroll';
 export const Nav = styled.nav`
     height: 100px;
     background-color: #fff;
-    /* margin-top: -100px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,6 +39,11 @@ export const NavLogo = styled(LinkS)`
     margin-left: 24px;
     text-decoration: none;
     border-right: 3.5px solid #3c6794;
+
+    @media screen and (max-width: 307px) {
+        border-right: none;
+        margin-left: 10px;
+    }
 `;
 
 export const MobileIcon = styled.div`

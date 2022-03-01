@@ -94,11 +94,6 @@ a {
   width: 230px;
 }
 
-@media screen and (max-width: 768px) {
-  .docet-logo, .cue-logo, .nomnom-logo {
-    width: 150px;
-  }
-}
 
 .footer-logo {
   width: 150px;
@@ -123,4 +118,31 @@ a {
   color: #f9f9f9;
   margin: 10px 10px 5px 10px;
   cursor: pointer;
+}
+
+.self {
+  filter: invert(37%) sepia(13%) saturate(2224%) hue-rotate(170deg) brightness(92%) contrast(80%);
+  width: 330px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .docet-logo, .cue-logo, .nomnom-logo {
+    width: 150px;
+  }
+  .self {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .self {
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .footer-duckhead {
+    left: 80px;
+  }
 }

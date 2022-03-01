@@ -1,3 +1,4 @@
+import self from '../../images/about-self.svg';
 import { AboutContainer, AboutBg, AboutContent, Row1, Descrip, Row2, Name, Title } from './AboutElements';
 
 function About() {
@@ -11,6 +12,7 @@ function About() {
                     </Descrip>
                 </Row1>
                 <Row2>
+                    <img src={self} alt="self-port" className='self'/>
                     <Name>Chris Dazzo</Name>
                     <Title>Developer | Designer | Illustrator</Title>
                 </Row2>

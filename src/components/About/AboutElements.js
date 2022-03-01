@@ -37,8 +37,24 @@ export const Descrip = styled.p`
     font-family: 'Poppins', sans-serif;
     font-size: 2.5rem;
 
+    @media screen and (max-width: 960px) {
+        font-size: 2.2rem;
+    }
+
     @media screen and (max-width: 768px) {
         font-size: 2rem;
+    }
+
+    @media screen and (max-width: 520px) {
+        font-size: 1.8rem;
+    }
+
+    @media screen and (max-width: 480px) {
+        font-size: 1.6rem;
+    }
+
+    @media screen and (max-width: 350px) {
+        font-size: 1.3rem;
     }
 `;
 
