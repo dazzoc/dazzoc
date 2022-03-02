@@ -23,39 +23,6 @@ export const HeroContent = styled.div`
     z-index: 3;
     max-width: 1100px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-`;
-
-export const TopRow = styled.div`
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    top: 120px;
-    animation: drive 10s infinite;
-`
-
-export const BottomRow = styled.div`
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    left: 80px;
-
-    @media screen and (max-width: 768px){
-        left: 45px;
-    }
-`
-
-export const Workhorses = styled.div`
-    display: flex;
-`;
-
-export const Guy = styled.div`
-    display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 `;
