@@ -11,13 +11,13 @@ function HeroSection() {
     <HeroContainer id='hero'>
         <HeroBg>
             <HeroContent>
-                <img src={w} alt="w" className='welcome'/>
-                <img src={e} alt="e" className='welcome'/>
-                <img src={l} alt="l" className='welcome'/>
-                <img src={c} alt="c" className='welcome'/>
-                <img src={o} alt="o" className='welcome'/>
-                <img src={m} alt="m" className='welcome'/>
-                <img src={e} alt="e" className='welcome'/>
+                <img src={w} alt="w" className='welcome' id='w'/>
+                <img src={e} alt="e" className='welcome' id='e'/>
+                <img src={l} alt="l" className='welcome' id='l'/>
+                <img src={c} alt="c" className='welcome' id='c'/>
+                <img src={o} alt="o" className='welcome' id='o'/>
+                <img src={m} alt="m" className='welcome' id='m'/>
+                <img src={e} alt="e" className='welcome' id='e2'/>
             </HeroContent>
         </HeroBg>
     </HeroContainer>

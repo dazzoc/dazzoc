@@ -6,6 +6,10 @@ export const HeroContainer = styled.div`
     align-items: center;
     height: 800px;
     z-index: 1;
+
+    @media screen and (max-width: 480px) {
+        height: 600px;
+    }
 `;
 
 export const HeroBg = styled.div`
@@ -17,6 +21,10 @@ export const HeroBg = styled.div`
     height: 800px;
     background: #fff;
     border-bottom: 3px solid #3c6794;
+
+    @media screen and (max-width: 480px) {
+        height: 600px;
+    }
 `;
 
 export const HeroContent = styled.div`

@@ -8,7 +8,7 @@ function About() {
             <AboutContent>
                 <Row1>
                     <Descrip>
-                        100% friendly and 110% hardworker. Chris has had a lifetime passion to make things look good and have fun at the same time. With a background in illustration and design, he recently found programming and web development where he is learning everyday.
+                        Chris is a Developer with a background in design and illustration. He has had a lifetime passion to build things that look good and function seamlessly. He started off re-drawing skateboard logo and building quarter pipes in the driveway, but he recently fell in love with programing and web development were he is learning everyday.  
                     </Descrip>
                 </Row1>
                 <Row2>

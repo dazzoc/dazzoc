@@ -14,10 +14,6 @@ export const AboutContainer = styled.div`
     @media screen and (max-width: 520px) {
         height: 600px;
     }
-
-    @media screen and (max-width: 480px) {
-        height: 500px;
-    }
 `;
 
 export const AboutBg = styled.div`
@@ -32,10 +28,6 @@ export const AboutBg = styled.div`
 
     @media screen and (max-width: 520px) {
         height: 600px;
-    }
-
-    @media screen and (max-width: 480px) {
-        height: 500px;
     }
 `;
 
@@ -59,22 +51,26 @@ export const Row1 = styled.h1`
 export const Descrip = styled.p`
     @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap');
     font-family: 'Poppins', sans-serif;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
 
     @media screen and (max-width: 960px) {
-        font-size: 2.2rem;
+        font-size: 2rem;
     }
 
     @media screen and (max-width: 768px) {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
 
     @media screen and (max-width: 520px) {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
 
     @media screen and (max-width: 480px) {
         font-size: 1rem;
+    }
+
+    @media screen and (max-width: 380px) {
+        font-size: 0.7rem;
     }
 `;
 
