@@ -7,10 +7,6 @@ export const AboutContainer = styled.div`
     height: 800px;
     z-index: 1;
 
-    @media screen and (max-width: 768px) {
-        height: 650px;
-    }
-
     @media screen and (max-width: 520px) {
         height: 600px;
     }
@@ -21,10 +17,6 @@ export const AboutBg = styled.div`
     height: 800px;
     background: #fff;
     border-bottom: 3px solid #3c6794;
-
-    @media screen and (max-width: 768px) {
-        height: 650px;
-    }
 
     @media screen and (max-width: 520px) {
         height: 600px;
