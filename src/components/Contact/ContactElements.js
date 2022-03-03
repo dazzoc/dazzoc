@@ -183,6 +183,10 @@ export const Submit = styled.input`
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
+    color: #000;
+    -webkit-color: #000;
+    -moz-color: #000;
+    -o-color: #000;
 
     &:hover {
         background-color: #ffa0cd;
