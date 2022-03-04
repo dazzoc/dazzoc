@@ -192,5 +192,8 @@ export const Submit = styled.input`
         background-color: #ffa0cd;
         transition: all 0.2s ease-in-out;
         color: #fff;
+        -webkit-color: #fff;
+        -moz-color: #fff;
+        -o-color: #fff;
     }
 `;
