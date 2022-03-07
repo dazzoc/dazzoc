@@ -21,14 +21,14 @@ function Contact() {
                 </Col1>
                 <Col2>
                     <FormWrapper>
-                        <Form>
+                        <Form action='https://formspree.io/f/mvolrdkp' method='POST'>
                             <ContactMe>Contact</ContactMe>
                             <Label>Name:</Label>
-                            <Input type="text" placeholder='Jimmy Johns'></Input>
+                            <Input type="text" name='name' placeholder='Lucy'></Input>
                             <Label>Email:</Label>
-                            <Input type="text" placeholder='Jimmy@freesmells.com'></Input>
+                            <Input type="email" name='email' placeholder='lucyiscool@gmail.com'></Input>
                             <Label>Comment:</Label>
-                            <Comment type="text" placeholder='"Do You Like Day Old Bread?"'></Comment>
+                            <Comment type="text" name='message' placeholder='"Whats happenin?"'></Comment>
                             <Submit type="submit" value="Submit!" />
                         </Form>
                     </FormWrapper>
