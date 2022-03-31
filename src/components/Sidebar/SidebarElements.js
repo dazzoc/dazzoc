@@ -8,7 +8,7 @@ export const SidebarContainer = styled.aside`
     z-index: 999;
     width: 100%;
     height: 100%;
-    background: #3c6794;
+    background: #eea5b8;
     display: grid;
     align-items: center;
     top: 0;
@@ -19,21 +19,21 @@ export const SidebarContainer = styled.aside`
 `;
 
 export const Close = styled(CloseIcon)`
-    color: #fff;
+    color: #000;
 `;
 
 export const Icon = styled.div`
     position: absolute;
     top: 0;
     right: 0;
-    transform: translate(-100%, 85%);
+    transform: translate(-100%, 85%) scale(1.3, 1.3);
     background: trasparent;
     cursor: pointer;
     outline: none;
 `;
 
 export const SidebarWrapper = styled.div`
-    color: #fff;
+    color: #000;
 `;
 
 export const SidebarMenu = styled.ul`
@@ -55,7 +55,7 @@ export const SidebarLink = styled(LinkS)`
     text-decoration: none;
     list-style: none;
     transition: 0.2s ease-in-out;
-    color: #fff;
+    color: #000;
     cursor: pointer;
 
     &:hover {

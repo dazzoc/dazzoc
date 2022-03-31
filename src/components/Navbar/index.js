@@ -1,7 +1,7 @@
 import MenuIcon from '@mui/icons-material/Menu';
 import logo from '../../images/dazzo-logo.svg';
-import duckhead from '../../images/duck-head.svg';
-import duckarm from '../../images/duck-arm.svg';
+import Star from '../../images/Star-01.svg';
+
 import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavResumeLink, NavIllo, Illo } from './NavbarElements';
 
 
@@ -18,25 +18,24 @@ const Navbar = ({ toggle }) => {
                 </MobileIcon>
                 <NavMenu>
                     <NavItem>
-                        <NavLinks to='about' activeClass='active' spy={true} smooth={true} offset={-100} duration={500} >About</NavLinks>
+                        <NavLinks to='about' activeClass='active' spy={true} smooth={true} offset={-100} duration={500} >ABOUT</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to='work' activeClass='active' spy={true} smooth={true} offset={-100} duration={500} >Work</NavLinks>
+                        <NavLinks to='work' activeClass='active' spy={true} smooth={true} offset={-100} duration={500} >WORK</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to='contact' activeClass='active' spy={true} smooth={true} offset={-100} duration={500} >Contact</NavLinks>
+                        <NavLinks to='contact' activeClass='active' spy={true} smooth={true} offset={-100} duration={500} >CONTACT</NavLinks>
                     </NavItem>
                     <NavItem>
                         <NavResumeLink>
-                            <a href='https://docs.google.com/document/d/1kyq79oMyecJyijj-btn_68sI1ESiYjq0vkRrNaGUKig/edit' target='_blank' rel="noreferrer" className="resume-link">Resume</a>
+                            <a href='https://docs.google.com/document/d/1kyq79oMyecJyijj-btn_68sI1ESiYjq0vkRrNaGUKig/edit' target='_blank' rel="noreferrer" className="resume-link">RESUME</a>
                         </NavResumeLink>
                     </NavItem>
                 </NavMenu>
                 <NavIllo>
                     <Illo>
                         <div className="illo-container">
-                            <img src={duckhead} alt="Logo" className="duckhead"/>
-                            <img src={duckarm} alt="Logo" className="duckarm"/>
+                            <img src={Star} alt="Star" className="star"/>
                         </div>
                     </Illo>
                 </NavIllo>

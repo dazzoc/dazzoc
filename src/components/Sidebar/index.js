@@ -9,16 +9,16 @@ const Sidebar = ({ toggle, isOpen }) => {
         <SidebarWrapper>
             <SidebarMenu>
                 <SidebarLink to="about" activeClass='active' spy={true} smooth={true} offset={-100} duration={500} onClick={toggle}>
-                    About
+                    ABOUT
                 </SidebarLink>
                 <SidebarLink to="work" activeClass='active' spy={true} smooth={true} offset={-100} duration={500} onClick={toggle}>
-                    Work
+                    WORK
                 </SidebarLink>
                 <SidebarLink to="contact" activeClass='active' spy={true} smooth={true} offset={-100} duration={500} onClick={toggle}>
-                    Contact
+                    CONTACT
                 </SidebarLink>
                 <SidebarResumeLink>
-                    <a href='https://docs.google.com/document/d/1kyq79oMyecJyijj-btn_68sI1ESiYjq0vkRrNaGUKig/edit' target='_blank' rel="noreferrer" className="resume-sidebar">Resume</a>
+                    <a href='https://docs.google.com/document/d/1kyq79oMyecJyijj-btn_68sI1ESiYjq0vkRrNaGUKig/edit' target='_blank' rel="noreferrer" className="resume-sidebar">RESUME</a>
                 </SidebarResumeLink>
             </SidebarMenu>
         </SidebarWrapper>

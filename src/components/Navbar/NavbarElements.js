@@ -4,7 +4,7 @@ import { Link as LinkS } from 'react-scroll';
 
 export const Nav = styled.nav`
     height: 100px;
-    background-color: #fff;
+    background-color: #fe4324;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,9 +26,6 @@ export const NavbarContainer = styled.div`
     width: 100%;
     padding: 0 24px;
     max-width: 1100px;
-    border-bottom: 3.5px solid #3c6794;
-    border-left: 3.5px solid #3c6794;
-    border-right: 3.5px solid #3c6794;
 `;
 
 export const NavLogo = styled(LinkS)`
@@ -38,7 +35,6 @@ export const NavLogo = styled(LinkS)`
     align-items: center;
     margin-left: 24px;
     text-decoration: none;
-    border-right: 3.5px solid #3c6794;
 
     @media screen and (max-width: 307px) {
         border-right: none;
@@ -52,10 +48,10 @@ export const MobileIcon = styled.div`
     @media screen and (max-width: 768px) {
         display: block;
         position: absolute;
-        color: #3c6794;
+        color: #000;
         top: 0;
         right: 0;
-        transform: translate(-100%, 85%);
+        transform: translate(-100%, 85%) scale(1.3, 1.3);
         cursor: pointer;
     }
 `;
@@ -76,11 +72,9 @@ export const NavItem = styled.li`
 `;
 
 export const NavLinks = styled(LinkS)`
-    @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap');
-    font-family: 'Nunito', sans-serif;
     font-weight: 500;
     font-size: 1.1rem;
-    color: #3c6794;
+    color: #000;
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -90,7 +84,7 @@ export const NavLinks = styled(LinkS)`
     transition: all 0.2s ease-in-out;
 
     &.active {
-        border-bottom: 3px solid #3c6794;
+        border-bottom: 3px solid #000;
     }
 
     &:hover {
@@ -118,7 +112,6 @@ export const NavIllo = styled.div`
     display: flex;
     align-items: center;
     margin-right: 4px;
-    border-left: 3.5px solid #3c6794;
 
     @media screen and (max-width: 768px) {
         display: none;
