@@ -1,9 +1,10 @@
 import styled from "styled-components";
 
 export const FooterContainer = styled.div`
-    height: 350px;
+    height: 250px;
     background: #fff;
     bottom: 0;
+    margin-top: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -12,7 +13,7 @@ export const FooterContainer = styled.div`
 
 export const FooterBg = styled.div`
     height: 250px;
-    background: #3c6794;
+    background: #000;
     z-index: 1;
     width: 100%;
     padding: 0 24px;
@@ -44,7 +45,5 @@ export const Copyright = styled.div`
 `;
 
 export const Copy = styled.p`
-    @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap');
-    font-family: 'Poppins', sans-serif;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 `

@@ -152,17 +152,14 @@ a {
 }
 
 .nomnom-logo {
-  filter: invert(37%) sepia(13%) saturate(2224%) hue-rotate(170deg) brightness(92%) contrast(80%);
   width: 250px;
 }
 
 .cue-logo {
-  filter: invert(37%) sepia(13%) saturate(2224%) hue-rotate(170deg) brightness(92%) contrast(80%);
   width: 250px;
 }
 
 .docet-logo {
-  filter: invert(37%) sepia(13%) saturate(2224%) hue-rotate(170deg) brightness(92%) contrast(80%);
   width: 230px;
 }
 
@@ -172,24 +169,19 @@ a {
   filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(171deg) brightness(106%) contrast(95%);
 }
 
-.footer-duckhead {
-  width: 120px;
-  filter: invert(37%) sepia(13%) saturate(2224%) hue-rotate(170deg) brightness(92%) contrast(80%);
-  position: relative;
-  top: 100px;
-  left: 130px;
-  transition: all 0.3s ease-in-out;
-}
-
-.footer-duckhead:hover {
-  top: 35px;
-  transition: all 0.1s ease-in-out;
+.footer-star{
+  width: 50px;
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(171deg) brightness(106%) contrast(95%);
 }
 
 .footer-links {
   color: #f9f9f9;
   margin: 10px 10px 5px 10px;
   cursor: pointer;
+}
+
+.footer-links:hover {
+  transform: scale(1.1, 1.1);
 }
 
 .self {

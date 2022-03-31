@@ -32,7 +32,7 @@ export const Top = styled.div`
 export const Box = styled.div`
     width: 165px;
     height: 100px;
-    border: 3px solid #3c6794;
+    border: 3px solid #000;
     padding: 20px;
     margin-bottom: 30px;
     display: flex;
@@ -45,10 +45,8 @@ export const Box = styled.div`
 `;
 
 export const WorkTitle = styled.h1`
-    @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap');
-    font-family: 'Nunito', sans-serif;
     font-size: 2.5rem;
-    color: #3c6794;
+    color: #000;
 `;
 
 export const WorkContainer = styled.div`
@@ -82,6 +80,7 @@ export const Worklink = styled.a`
 
 export const Hex = styled.h1`
     font-size: 4rem;
+    color: #000;
 
     @media screen and (max-width: 768px) {
         font-size: 2.5rem;
