@@ -132,6 +132,7 @@ export const Arrow1 = styled.img`
 
 export const Text = styled.h1`
     font-size: 1.2rem;
+    font-weight: 500;
 
     @media screen and (max-width: 650px) {
         font-size: 1rem;
