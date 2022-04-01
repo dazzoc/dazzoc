@@ -7,8 +7,8 @@ export const HeroContainer = styled.div`
     height: 800px;
     z-index: 1;
 
-    @media screen and (max-width: 480px) {
-        height: 600px;
+    @media screen and (max-width: 420px) {
+        height: 700px;
     }
 `;
 
@@ -31,6 +31,22 @@ export const HeroImgWrapper = styled.div`
     justify-content: center;
     align-items: center;
     width: 600px;
+
+    @media screen and (max-width: 650px) {
+        width: 500px;
+    }
+
+    @media screen and (max-width: 520px) {
+        width: 400px;
+    }
+
+    @media screen and (max-width: 420px) {
+        width: 300px;
+    }
+
+    @media screen and (max-width: 300px) {
+        width: 250px;
+    }
 `;
 
 export const Circle = styled.img`
@@ -44,15 +60,28 @@ export const HeroContent = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @media screen and (max-width: 520px) {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
 `;
 
 export const CircleBox = styled.img`
     height: 150px;
     margin-right: 20px;
+
+    @media screen and (max-width: 650px) {
+        height: 120px;
+    }
+
+    @media screen and (max-width: 520px) {
+        height: 120px;
+    }
 `;
 
 export const Name = styled.div` 
-    margin-right: 60px;
 `;
 
 export const NameText = styled.h1`
@@ -60,6 +89,17 @@ export const NameText = styled.h1`
     font-weight: 400;
     transform: scaleY(1.4);
     margin-bottom: 10px;
+    margin-right: 60px;
+
+    @media screen and (max-width: 650px) {
+        font-size: 2.8rem;
+        margin-right: 40px;
+    }
+
+    @media screen and (max-width: 520px) {
+        font-size: 2.5rem;
+        margin-right: 20px;
+    }
 `;
 
 export const TextWrap = styled.div`
@@ -71,6 +111,18 @@ export const Row = styled.div`
     flex-direction: row;
     align-items: center;
     margin-bottom: 15px;
+
+    @media screen and (max-width: 520px) {
+        margin-right: 140px;
+    }
+
+    @media screen and (max-width: 420px) {
+        margin-right: 40px;
+    }
+
+    @media screen and (max-width: 300px) {
+        margin-left: 50px;
+    }
 `;
 
 export const Arrow1 = styled.img`
@@ -80,4 +132,8 @@ export const Arrow1 = styled.img`
 
 export const Text = styled.h1`
     font-size: 1.2rem;
-`
+
+    @media screen and (max-width: 650px) {
+        font-size: 1rem;
+    }
+`;
