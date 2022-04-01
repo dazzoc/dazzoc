@@ -103,17 +103,13 @@ a {
 }
 
 .self {
-  filter: invert(37%) sepia(13%) saturate(2224%) hue-rotate(170deg) brightness(92%) contrast(80%);
   width: 330px;
-  margin-bottom: 20px;
+  margin-right: 40px;
 }
 
 @media screen and (max-width: 768px) {
   .self {
     width: 250px;
-  }
-  .welcome {
-    height: 120px;
   }
 }
 
@@ -121,17 +117,11 @@ a {
   .docet-logo, .cue-logo, .nomnom-logo {
     width: 140px;
   }
-  .welcome {
-    height: 90px;
-  }
 }
 
 @media screen and (max-width: 480px) {
   .docet-logo, .cue-logo, .nomnom-logo {
     width: 130px;
-  }
-  .self {
-    width: 150px;
   }
   .welcome {
     height: 65px;
