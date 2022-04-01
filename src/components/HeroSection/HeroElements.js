@@ -62,8 +62,7 @@ export const HeroContent = styled.div`
     max-width: 1100px;
     margin-top: 20px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
 
     @media screen and (max-width: 520px) {
         display: flex;
@@ -73,7 +72,7 @@ export const HeroContent = styled.div`
 `;
 
 export const CircleBox = styled.img`
-    height: 150px;
+    height: 140px;
     margin-right: 20px;
 
     @media screen and (max-width: 650px) {
@@ -92,11 +91,10 @@ export const NameText = styled.h1`
     font-size: 3.5rem;
     font-weight: 400;
     transform: scaleY(1.4);
-    margin-bottom: 10px;
     margin-right: 60px;
 
     @media screen and (max-width: 650px) {
-        font-size: 2.8rem;
+        font-size: 3rem;
         margin-right: 40px;
     }
 
@@ -107,7 +105,6 @@ export const NameText = styled.h1`
 `;
 
 export const TextWrap = styled.div`
-    height: 150px;
 
     @media screen and (max-width: 520px) {
         height: 100px;

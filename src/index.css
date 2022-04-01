@@ -69,93 +69,6 @@ a {
   transform: scale(1.1, 1.1);
 }
 
-.welcome {
-  filter: invert(37%) sepia(13%) saturate(2224%) hue-rotate(170deg) brightness(92%) contrast(80%);
-  height: 150px;
-  margin: 2px;
-  transition: all 0.3s ease-in-out;
-}
-
-.welcome:hover {
-  transform: scale(1.1, 1.3);
-  transition: all 0.3s ease-in-out;
-}
-
-#w {
-  position: relative;
-  animation: animate 1s;
-  -webkit-animation: animate 1s;
-  -moz-animation: animate 1s;
-  -o-animation: animate 1s;
-}
-
-#e {
-  position: relative;
-  animation: animate 1s;
-  -webkit-animation: animate 1s;
-  -moz-animation: animate 1s;
-  -o-animation: animate 1s;
-  animation-delay: 0.15s;
-}
-
-#l {
-  position: relative;
-  animation: animate 1s;
-  -webkit-animation: animate 1s;
-  -moz-animation: animate 1s;
-  -o-animation: animate 1s;
-  animation-delay: 0.3s;
-}
-
-#c {
-  position: relative;
-  animation: animate 1s;
-  -webkit-animation: animate 1s;
-  -moz-animation: animate 1s;
-  -o-animation: animate 1s;
-  animation-delay: 0.45s;
-}
-
-#o {
-  position: relative;
-  animation: animate 1s;
-  -webkit-animation: animate 1s;
-  -moz-animation: animate 1s;
-  -o-animation: animate 1s;
-  animation-delay: 0.6s;
-}
-
-#m {
-  position: relative;
-  animation: animate 1s;
-  -webkit-animation: animate 1s;
-  -moz-animation: animate 1s;
-  -o-animation: animate 1s;
-  animation-delay: 0.75s;
-}
-
-#e2 {
-  position: relative;
-  animation: animate 1s;
-  -webkit-animation: animate 1s;
-  -moz-animation: animate 1s;
-  -o-animation: animate 1s;
-  animation-delay: 0.9s;
-}
-
-@keyframes animate {
-  0%{
-      bottom: 0;
-  }
-  50% {
-    bottom: 50px;
-    transform: scale(1.1, 1.3);
-  }
-  100%{
-      bottom: 0;
-  }
-}
-
 .nomnom-logo {
   width: 250px;
 }
@@ -196,9 +109,6 @@ a {
 }
 
 @media screen and (max-width: 768px) {
-  /* .docet-logo, .cue-logo, .nomnom-logo {
-    width: 150px;
-  } */
   .self {
     width: 250px;
   }
