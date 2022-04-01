@@ -58,7 +58,7 @@ export const HeroContent = styled.div`
     max-width: 1100px;
     margin-top: 20px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 
     @media screen and (max-width: 520px) {
