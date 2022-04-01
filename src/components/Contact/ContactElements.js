@@ -12,9 +12,15 @@ export const ContactBg = styled.div`
     width: 1100px;
     height: 800px;
     background: #FFF;
+    padding: 40px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    @media screen and (max-width: 768px) {
+        height: 900px;
+    }
 `;
 
 export const ContactContent = styled.div`
@@ -27,6 +33,37 @@ export const ContactContent = styled.div`
     @media screen and (max-width: 768px) {
         flex-direction: column;
     }
+`;
+
+export const Top3 = styled.div`
+    width: 100%;
+`;
+
+export const Box3 = styled.div`
+    max-width: 1100px;
+    height: 100px;
+    background: #fe4324;
+    padding: 20px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media screen and (max-width: 768px) {
+        margin-bottom: 30px;
+    }
+`;
+
+export const StarIconContact = styled.img`
+    width: 50px;
+    margin: 0 15px;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(171deg) brightness(106%) contrast(95%);
+`
+
+export const ContactTitle = styled.h1`
+    font-size: 3.5rem;
+    font-weight: 400;
+    color: #fff;
 `;
 
 export const Col1 = styled.div`

@@ -1,12 +1,20 @@
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import { ContactContainer, ContactBg, ContactContent, Col1, Col2, Header, SubHeader, SocalMediaLinks, FormWrapper, Form, ContactMe, Label, Input, Comment, Submit } from './ContactElements';
+import Star from '../../images/Star-01.svg';
+import { ContactContainer, ContactBg, ContactContent, Top3, Box3, StarIconContact, ContactTitle, Col1, Col2, Header, SubHeader, SocalMediaLinks, FormWrapper, Form, ContactMe, Label, Input, Comment, Submit } from './ContactElements';
 
 function Contact() {
   return (
     <ContactContainer id='contact'>
         <ContactBg>
+            <Top3>
+                <Box3>
+                    <StarIconContact src={Star} alt='Star'/>
+                    <ContactTitle>CONTACT</ContactTitle>
+                    <StarIconContact src={Star} alt='Star'/>
+                </Box3>
+            </Top3>
             <ContactContent>
                 <Col1>
                     <Header>YELLOW!</Header>
@@ -22,7 +30,7 @@ function Contact() {
                 <Col2>
                     <FormWrapper>
                         <Form action='https://formspree.io/f/mvolrdkp' method='POST'>
-                            <ContactMe>CONTACT-FORM:</ContactMe>
+                            <ContactMe>CONTACT-</ContactMe>
                             <Label>NAME:</Label>
                             <Input type="text" name='name' placeholder='Lucy'></Input>
                             <Label>EMAIL:</Label>

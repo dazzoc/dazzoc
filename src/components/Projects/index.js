@@ -1,7 +1,8 @@
 import nomnom from '../../images/NomNom-logo.svg';
 import cue from '../../images/cue-01.svg';
 import docet from '../../images/DOCET-head-01.svg';
-import { ProjectsContainer, ProjectsBg, ProjectsContent, Top, Box, WorkTitle, WorkContainer, Worklink, Hex } from './ProjectElements';
+import Star from '../../images/Star-01.svg';
+import { ProjectsContainer, ProjectsBg, ProjectsContent, Top, Box, StarIcon, WorkTitle, WorkContainer, Worklink, Hex } from './ProjectElements';
 
 function Projects() {
   return (
@@ -10,7 +11,9 @@ function Projects() {
             <ProjectsContent>
                 <Top>
                     <Box>
-                        <WorkTitle>Work</WorkTitle>
+                        <StarIcon src={Star} alt='Star'/>
+                        <WorkTitle>PROJECTS</WorkTitle>
+                        <StarIcon src={Star} alt='Star'/>
                     </Box>
                 </Top>
                 <WorkContainer>

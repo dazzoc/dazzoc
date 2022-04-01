@@ -16,7 +16,6 @@ export const AboutBg = styled.div`
     width: 1100px;
     height: 800px;
     background: #fff;
-    border-bottom: 3px solid #3c6794;
 
     @media screen and (max-width: 520px) {
         height: 600px;

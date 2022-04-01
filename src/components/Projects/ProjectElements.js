@@ -12,7 +12,6 @@ export const ProjectsBg = styled.div`
     width: 1100px;
     height: 800px;
     background: #fff;
-    border-bottom: 3px solid #3c6794;
 `;
 
 export const ProjectsContent = styled.div`
@@ -30,9 +29,9 @@ export const Top = styled.div`
 `;
 
 export const Box = styled.div`
-    width: 165px;
+    max-width: 1100px;
     height: 100px;
-    border: 3px solid #000;
+    background: #fe4324;
     padding: 20px;
     margin-bottom: 30px;
     display: flex;
@@ -44,9 +43,16 @@ export const Box = styled.div`
     }
 `;
 
+export const StarIcon = styled.img`
+    width: 50px;
+    margin: 0 15px;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(171deg) brightness(106%) contrast(95%);
+`
+
 export const WorkTitle = styled.h1`
-    font-size: 2.5rem;
-    color: #000;
+    font-size: 3.5rem;
+    font-weight: 400;
+    color: #fff;
 `;
 
 export const WorkContainer = styled.div`
