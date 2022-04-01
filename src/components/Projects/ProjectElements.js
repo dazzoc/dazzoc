@@ -9,9 +9,23 @@ export const ProjectsContainer = styled.div`
 `;
 
 export const ProjectsBg = styled.div`
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 40px;
     width: 1100px;
     height: 800px;
     background: #fff;
+
+    @media screen and (max-width: 768px) {
+        padding: 40px 0;
+    }
+
+    @media screen and (max-width: 480px) {
+        height: 900px;
+    }
+
 `;
 
 export const ProjectsContent = styled.div`
@@ -33,13 +47,12 @@ export const Box = styled.div`
     height: 100px;
     background: #fe4324;
     padding: 20px;
-    margin-bottom: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
 
     @media screen and (max-width: 768px) {
-        margin-bottom: 20px;
+        width: 100%;
     }
 `;
 
@@ -56,19 +69,22 @@ export const WorkTitle = styled.h1`
 `;
 
 export const WorkContainer = styled.div`
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 40px;
-    grid-row-gap: 40px;
-    width: 70%;
-    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
     @media screen and (max-width: 850px) {
         width: 100%;
     }
+`;
 
-    @media screen and (max-width: 600px) {
+export const WorkRow = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media screen and (max-width: 480px) {
         display: flex;
         flex-direction: column;
     }
@@ -77,6 +93,7 @@ export const WorkContainer = styled.div`
 export const Worklink = styled.a`
     text-decoration: none;
     cursor: pointer;
+    margin: 20px 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -86,13 +103,17 @@ export const Worklink = styled.a`
         transform: scale(1.05, 1.05);
         transition: all 0.2s ease-in-out;
     }
+
+    @media screen and (max-width: 480px) {
+        margin: 20px;
+    }
 `;
 
 export const Hex = styled.h1`
     font-size: 4rem;
     color: #000;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 600px) {
         font-size: 2.5rem;
     }
 `;

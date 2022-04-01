@@ -17,7 +17,7 @@ function Contact() {
             </Top3>
             <ContactContent>
                 <Col1>
-                    <Header>YELLOW!</Header>
+                    <Header>HELLO!</Header>
                     <SubHeader>
                         I'm always open to chat about cool stuff like design, Illustration or Development. Drop me a Line or follow me on Socal Media!
                     </SubHeader>

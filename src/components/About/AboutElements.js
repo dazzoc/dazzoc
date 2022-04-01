@@ -7,23 +7,23 @@ export const AboutContainer = styled.div`
     height: 800px;
     z-index: 1;
 
-    /* @media screen and (max-width: 520px) {
-        height: 600px;
-    } */
+    @media screen and (max-width: 540px) {
+        height: 900px;
+    }
 `;
 
 export const AboutBg = styled.div`
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     padding: 40px;
     width: 1100px;
     height: 800px;
     background: #fff;
 
-    @media screen and (max-width: 480px) {
-        padding: 0;
+    @media screen and (max-width: 768px) {
+        padding: 40px 0;
     }
 `;
 
@@ -49,13 +49,14 @@ export const Box2 = styled.div`
     height: 100px;
     background: #fe4324;
     padding: 20px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
 
-    @media screen and (max-width: 540px) {
+    @media screen and (max-width: 768px) {
         margin-bottom: 30px;
+        width: 100%;
     }
 `;
 
@@ -78,6 +79,7 @@ export const Row1 = styled.div`
 
     @media screen and (max-width: 768px) {
         justify-content: center;
+        width: 500px;
     }
 
     @media screen and (max-width: 540px) {
@@ -114,7 +116,7 @@ export const Name = styled.h5`
 export const Title = styled.p`
     font-size: 1rem;
     font-weight: 500;
-    `;
+`;
 
 export const FunkStar = styled.img`
     width: 100px;
@@ -124,7 +126,11 @@ export const FunkStar = styled.img`
     @media screen and (max-width: 768px) {
         width: 50px;
     }
-    `;
+
+    @media screen and (max-width: 540px) {
+        margin: 10px 0;
+    }
+`;
 
 export const Info = styled.h5`
     font-size: 1.2rem;
@@ -145,10 +151,18 @@ export const BioTitle = styled.h5`
     font-size: 1.5rem;
     font-weight: 500;
     margin-right: 5px;
-    `;
+
+    @media screen and (max-width: 540px) {
+        font-size: 1.1rem;
+    }
+`;
 
 export const ArrowDown1 = styled.img`
     width: 30px;
+
+    @media screen and (max-width: 540px) {
+        width: 20px;
+    }
 `;
 
 export const Descrip = styled.p`
@@ -162,13 +176,12 @@ export const Descrip = styled.p`
     }
 
     @media screen and (max-width: 540px) {
-        font-size: .8rem;
+        font-size: .9rem;
         width: 400px;
     }
 
     @media screen and (max-width: 420px) {
         width: 300px;
-        font-size: .7rem;
     }
 
 `;

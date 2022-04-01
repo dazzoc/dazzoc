@@ -15,11 +15,11 @@ export const ContactBg = styled.div`
     padding: 40px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
 
     @media screen and (max-width: 768px) {
-        height: 900px;
+        padding: 40px 0;
     }
 `;
 
@@ -44,13 +44,14 @@ export const Box3 = styled.div`
     height: 100px;
     background: #fe4324;
     padding: 20px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
 
     @media screen and (max-width: 768px) {
-        margin-bottom: 30px;
+        margin-bottom: 40px;
+        width: 100%;
     }
 `;
 
