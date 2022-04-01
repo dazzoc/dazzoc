@@ -11,7 +11,7 @@ export const ContactContainer = styled.div`
 export const ContactBg = styled.div`
     width: 1100px;
     height: 800px;
-    background: #3c6794;
+    background: #FFF;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,8 +36,8 @@ export const Col1 = styled.div`
     width: 400px;
     height: 500px;
     padding: 20px 10px 20px 20px;
-    background-color: #f9f9f9;
-    color: #3c6794;
+    background-color: #ffa0cd;
+    color: #000;
     border-radius: 10px 0 0 10px;
 
     @media screen and (max-width: 768px) {
@@ -55,8 +55,6 @@ export const Col1 = styled.div`
 `;
 
 export const Header = styled.h1`
-    @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap');
-    font-family: 'Nunito', sans-serif;
     font-size: 4rem;
 
     @media screen and (max-width: 768px) {
@@ -65,9 +63,8 @@ export const Header = styled.h1`
 `;
 
 export const SubHeader = styled.p`
-    @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap');
-    font-family: 'Poppins', sans-serif;
     font-size: 1.2rem;
+    text-transform: uppercase;
     width: 360px;
     margin: 15px 0;
 
@@ -100,7 +97,7 @@ export const Col2 = styled.div`
     width: 400px;
     height: 500px;
     padding: 20px 20px 20px 10px;
-    background-color: #f9f9f9;
+    background-color: #ffa0cd;
     color: #f9f9f9;
     border-radius: 0 10px 10px 0;
 
@@ -121,7 +118,7 @@ export const Col2 = styled.div`
 export const FormWrapper = styled.div`
     width: 370px;
     height: 460px;
-    background: #3c6794;
+    background: #fe4324;
     padding: 20px;
     border-radius: 8px;
 
@@ -140,8 +137,6 @@ export const Form = styled.form`
 `;
 
 export const ContactMe = styled.h1`
-    @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap');
-    font-family: 'Nunito', sans-serif;
     font-size: 2rem;
 `;
 
@@ -174,26 +169,23 @@ export const Comment = styled.textarea`
 `;
 
 export const Submit = styled.input`
-    width: 70px;
-    height: 30px;
+    width: 100px;
+    height: 40px;
     border: none;
     outline: none;
     margin-top: 20px;
-    background: #f9f9f9;
-    border-radius: 50px;
+    background: #000;
+    border-radius: 10px;
+    font-size: 1rem;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
-    color: #000;
-    -webkit-color: #000;
-    -moz-color: #000;
-    -o-color: #000;
+    color: #FFF;
+    -webkit-color: #FFF;
+    -moz-color: #FFF;
+    -o-color: #FFF;
 
     &:hover {
-        background-color: #ffa0cd;
+        transform: translateY(-3px);
         transition: all 0.2s ease-in-out;
-        color: #fff;
-        -webkit-color: #fff;
-        -moz-color: #fff;
-        -o-color: #fff;
     }
 `;
