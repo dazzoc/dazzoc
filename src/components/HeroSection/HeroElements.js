@@ -20,11 +20,21 @@ export const HeroBg = styled.div`
     width: 1100px;
     height: 800px;
     background: #fff;
-    border-bottom: 3px solid #3c6794;
 
     @media screen and (max-width: 480px) {
         height: 600px;
     }
+`;
+
+export const HeroImgWrapper = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+`;
+
+export const Circle = styled.img`
+    width: 100%;
 `;
 
 export const HeroContent = styled.div`
