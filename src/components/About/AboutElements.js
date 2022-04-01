@@ -8,7 +8,7 @@ export const AboutContainer = styled.div`
     z-index: 1;
 
     @media screen and (max-width: 540px) {
-        height: 900px;
+        /* height: 900px; */
     }
 `;
 
@@ -78,8 +78,8 @@ export const Row1 = styled.div`
     margin-bottom: 20px;
 
     @media screen and (max-width: 768px) {
-        justify-content: center;
-        width: 500px;
+        /* justify-content: center; */
+        width: 520px;
     }
 
     @media screen and (max-width: 540px) {
@@ -106,16 +106,24 @@ export const Row2 = styled.div`
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    `;
+`;
 
 export const Name = styled.h5`
     font-size: 2rem;
     font-weight: 500;
-    `;
+
+    @media screen and (max-width: 600px) {
+        font-size: 1.5rem;
+    }
+`;
 
 export const Title = styled.p`
     font-size: 1rem;
     font-weight: 500;
+
+    @media screen and (max-width: 768px) {
+        font-size: .9rem;
+    }
 `;
 
 export const FunkStar = styled.img`
@@ -125,10 +133,11 @@ export const FunkStar = styled.img`
     
     @media screen and (max-width: 768px) {
         width: 50px;
+        margin: 10px 0;
     }
 
     @media screen and (max-width: 540px) {
-        margin: 10px 0;
+        width: 20px;
     }
 `;
 
@@ -137,15 +146,15 @@ export const Info = styled.h5`
     font-weight: 500;
     
     @media screen and (max-width: 768px) {
-        font-size: 1rem;
+        font-size: .9rem;
     }
-    `;
+`;
 
 export const Bio = styled.div`
     display: flex;
     align-items: center;
     margin-bottom: 10px;
-    `;
+`;
 
 export const BioTitle = styled.h5`
     font-size: 1.5rem;
@@ -181,6 +190,7 @@ export const Descrip = styled.p`
     }
 
     @media screen and (max-width: 420px) {
+        font-size: .8rem;
         width: 300px;
     }
 

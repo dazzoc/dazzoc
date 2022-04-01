@@ -23,7 +23,7 @@ export const ProjectsBg = styled.div`
     }
 
     @media screen and (max-width: 480px) {
-        height: 900px;
+        /* height: 900px; */
     }
 
 `;
