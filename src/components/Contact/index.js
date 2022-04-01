@@ -22,7 +22,7 @@ function Contact() {
                 <Col2>
                     <FormWrapper>
                         <Form action='https://formspree.io/f/mvolrdkp' method='POST'>
-                            <ContactMe>CONTACT-</ContactMe>
+                            <ContactMe>CONTACT-FORM:</ContactMe>
                             <Label>NAME:</Label>
                             <Input type="text" name='name' placeholder='Lucy'></Input>
                             <Label>EMAIL:</Label>

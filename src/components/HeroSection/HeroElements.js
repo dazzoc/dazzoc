@@ -7,8 +7,12 @@ export const HeroContainer = styled.div`
     height: 800px;
     z-index: 1;
 
-    @media screen and (max-width: 420px) {
+    @media screen and (max-width: 520px) {
         height: 700px;
+    }
+
+    @media screen and (max-width: 420px) {
+        height: 600px;
     }
 `;
 
@@ -104,6 +108,10 @@ export const NameText = styled.h1`
 
 export const TextWrap = styled.div`
     height: 150px;
+
+    @media screen and (max-width: 520px) {
+        height: 100px;
+    }
 `;
 
 export const Row = styled.div`
