@@ -196,9 +196,9 @@ a {
 }
 
 @media screen and (max-width: 768px) {
-  .docet-logo, .cue-logo, .nomnom-logo {
+  /* .docet-logo, .cue-logo, .nomnom-logo {
     width: 150px;
-  }
+  } */
   .self {
     width: 250px;
   }
@@ -208,12 +208,18 @@ a {
 }
 
 @media screen and (max-width: 600px) {
+  .docet-logo, .cue-logo, .nomnom-logo {
+    width: 140px;
+  }
   .welcome {
     height: 90px;
   }
 }
 
 @media screen and (max-width: 480px) {
+  .docet-logo, .cue-logo, .nomnom-logo {
+    width: 130px;
+  }
   .self {
     width: 150px;
   }

@@ -33,13 +33,13 @@ export const Box = styled.div`
     height: 100px;
     background: #fe4324;
     padding: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
 
     @media screen and (max-width: 768px) {
-        margin-bottom: 15px;
+        margin-bottom: 20px;
     }
 `;
 
@@ -64,7 +64,11 @@ export const WorkContainer = styled.div`
     width: 70%;
     height: 100%;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 850px) {
+        width: 100%;
+    }
+
+    @media screen and (max-width: 600px) {
         display: flex;
         flex-direction: column;
     }
