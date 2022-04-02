@@ -9,17 +9,17 @@ export const ContactContainer = styled.div`
 `;
 
 export const ContactBg = styled.div`
-    width: 1100px;
-    height: 800px;
-    background: #FFF;
-    padding: 40px;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
+    padding: 40px;
+    max-width: 1100px;
+    height: 800px;
+    background: #fff;
+    overflow: hidden;
 
     @media screen and (max-width: 768px) {
-        padding: 40px 0;
+        padding: 20px 0;
     }
 `;
 
@@ -30,13 +30,14 @@ export const ContactContent = styled.div`
     justify-content: center;
     align-items: center;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 880px) {
         flex-direction: column;
     }
 `;
 
 export const Top3 = styled.div`
     width: 100%;
+    overflow: hidden;
 `;
 
 export const Box3 = styled.div`
@@ -48,11 +49,19 @@ export const Box3 = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    white-space: nowrap;
+    overflow: hidden;
 
     @media screen and (max-width: 768px) {
-        margin-bottom: 40px;
+        margin-bottom: 50px;
         width: 100%;
     }
+`;
+
+export const Span3 = styled.span`
+    display: flex;
+    align-items: center;
+    font-size: 3.5rem;
 `;
 
 export const StarIconContact = styled.img`
@@ -78,8 +87,8 @@ export const Col1 = styled.div`
     color: #000;
     border-radius: 10px 0 0 10px;
 
-    @media screen and (max-width: 768px) {
-        height: 200px;
+    @media screen and (max-width: 880px) {
+        height: 175px;
         border-radius: 10px 10px 0 0;
     }
 
@@ -95,8 +104,8 @@ export const Col1 = styled.div`
 export const Header = styled.h1`
     font-size: 4rem;
 
-    @media screen and (max-width: 768px) {
-        font-size: 2.5rem;
+    @media screen and (max-width: 880px) {
+        font-size: 2rem;
     }
 `;
 
@@ -106,14 +115,15 @@ export const SubHeader = styled.p`
     width: 360px;
     margin: 15px 0;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 880px) {
         font-size: 1rem;
+        margin: 5px 0;
     }
 
     @media screen and (max-width: 420px) {
         width: 260px;
         font-size: 14px;
-        margin: 10px 0;
+        margin: 0;
     }
 
     @media screen and (max-width: 320px) {
@@ -139,9 +149,10 @@ export const Col2 = styled.div`
     color: #f9f9f9;
     border-radius: 0 10px 10px 0;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 880px) {
         border-radius: 0 0 10px 10px;
         padding: 20px;
+        height: 420px;
     }
 
     @media screen and (max-width: 420px) {
@@ -160,6 +171,10 @@ export const FormWrapper = styled.div`
     padding: 20px;
     border-radius: 8px;
 
+    @media screen and (max-width: 880px) {
+        height: 380px;
+    }
+
     @media screen and (max-width: 420px) {
         width: 270px;
     }
@@ -176,11 +191,19 @@ export const Form = styled.form`
 
 export const ContactMe = styled.h1`
     font-size: 2rem;
+
+    @media screen and (max-width: 880px) {
+        font-size: 1.5rem;
+    }
 `;
 
 export const Label = styled.label`
     font-size: 1rem;
     margin-top: 20px;
+
+    @media screen and (max-width: 880px) {
+        margin-top: 15px;
+    }
 `;
 
 export const Input = styled.input`
@@ -204,6 +227,10 @@ export const Comment = styled.textarea`
     max-width: 330px;
     max-height: 100px;
     overflow: scroll;
+
+    @media screen and (max-width: 880px) {
+        height: 50px;
+    }
 `;
 
 export const Submit = styled.input`

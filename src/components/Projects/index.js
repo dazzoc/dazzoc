@@ -2,7 +2,7 @@ import nomnom from '../../images/NomNom-logo.svg';
 import cue from '../../images/cue-01.svg';
 import docet from '../../images/DOCET-head-01.svg';
 import Star from '../../images/Star-01.svg';
-import { ProjectsContainer, ProjectsBg, ProjectsContent, Top, Box, StarIcon, WorkTitle, WorkContainer, WorkRow, Worklink, Hex } from './ProjectElements';
+import { ProjectsContainer, ProjectsBg, ProjectsContent, Top, Box, Span, StarIcon, WorkTitle, WorkContainer, WorkRow, Worklink, Hex } from './ProjectElements';
 
 function Projects() {
   return (
@@ -10,9 +10,18 @@ function Projects() {
         <ProjectsBg>
                 <Top>
                     <Box>
-                        <StarIcon src={Star} alt='Star'/>
-                        <WorkTitle>PROJECTS</WorkTitle>
-                        <StarIcon src={Star} alt='Star'/>
+                        <Span>
+                            <StarIcon src={Star} alt='Star'/>
+                            <WorkTitle>PROJECTS</WorkTitle>
+                            <StarIcon src={Star} alt='Star'/>
+                            &nbsp;
+                        </Span>
+                        <Span>
+                            <StarIcon src={Star} alt='Star'/>
+                            <WorkTitle>PROJECTS</WorkTitle>
+                            <StarIcon src={Star} alt='Star'/>
+                            &nbsp;
+                        </Span>
                     </Box>
                 </Top>
             <ProjectsContent>

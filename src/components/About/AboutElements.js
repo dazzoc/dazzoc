@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 
 export const AboutContainer = styled.div`
     display: flex;
@@ -6,24 +6,20 @@ export const AboutContainer = styled.div`
     align-items: center;
     height: 800px;
     z-index: 1;
-
-    @media screen and (max-width: 540px) {
-        /* height: 900px; */
-    }
 `;
 
 export const AboutBg = styled.div`
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
     padding: 40px;
-    width: 1100px;
+    max-width: 1100px;
     height: 800px;
     background: #fff;
+    overflow: hidden;
 
     @media screen and (max-width: 768px) {
-        padding: 40px 0;
+        padding: 20px 0;
     }
 `;
 
@@ -34,14 +30,11 @@ export const AboutContent = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    @media screen and (max-width: 540px) {
-        
-    }
 `;
 
 export const Top2 = styled.div`
     width: 100%;
+    overflow: hidden;
 `;
 
 export const Box2 = styled.div`
@@ -53,11 +46,19 @@ export const Box2 = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    white-space: nowrap;
+    overflow: hidden;
 
     @media screen and (max-width: 768px) {
         margin-bottom: 30px;
         width: 100%;
     }
+`;
+
+export const Span2 = styled.span`
+    display: flex;
+    align-items: center;
+    font-size: 3.5rem;
 `;
 
 export const StarIconAbout = styled.img`
@@ -126,10 +127,31 @@ export const Title = styled.p`
     }
 `;
 
+export const Spin = keyframes`
+    from { transform: rotate(0deg) }
+    to { transform: rotate(360deg) }
+`;
+
 export const FunkStar = styled.img`
     width: 100px;
     margin: 20px 0;
     filter: invert(79%) sepia(95%) saturate(3017%) hue-rotate(280deg) brightness(100%) contrast(105%);
+    animation-name: ${Spin};
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    -webkit-animation-name: ${Spin};
+    -webkit-animation-duration: 6s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: ${Spin};
+    -moz-animation-duration: 6s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: ${Spin};
+    -ms-animation-duration: 6s;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
     
     @media screen and (max-width: 768px) {
         width: 50px;

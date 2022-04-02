@@ -14,18 +14,14 @@ export const ProjectsBg = styled.div`
     /* justify-content: center; */
     align-items: center;
     padding: 40px;
-    width: 1100px;
+    max-width: 1100px;
     height: 800px;
     background: #fff;
+    overflow: hidden;
 
     @media screen and (max-width: 768px) {
-        padding: 40px 0;
+        padding: 20px 0;
     }
-
-    @media screen and (max-width: 480px) {
-        /* height: 900px; */
-    }
-
 `;
 
 export const ProjectsContent = styled.div`
@@ -40,6 +36,7 @@ export const ProjectsContent = styled.div`
 
 export const Top = styled.div`
     width: 100%;
+    overflow: hidden;
 `;
 
 export const Box = styled.div`
@@ -50,10 +47,17 @@ export const Box = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    white-space: nowrap;
+    overflow: hidden;
 
     @media screen and (max-width: 768px) {
         width: 100%;
     }
+`;
+
+export const Span = styled.span`
+    display: flex;
+    align-items: center;
 `;
 
 export const StarIcon = styled.img`
@@ -105,7 +109,7 @@ export const Worklink = styled.a`
     }
 
     @media screen and (max-width: 480px) {
-        margin: 20px;
+        margin: 10px;
     }
 `;
 

@@ -2,7 +2,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import Star from '../../images/Star-01.svg';
-import { ContactContainer, ContactBg, ContactContent, Top3, Box3, StarIconContact, ContactTitle, Col1, Col2, Header, SubHeader, SocalMediaLinks, FormWrapper, Form, ContactMe, Label, Input, Comment, Submit } from './ContactElements';
+import { ContactContainer, ContactBg, ContactContent, Top3, Box3, Span3, StarIconContact, ContactTitle, Col1, Col2, Header, SubHeader, SocalMediaLinks, FormWrapper, Form, ContactMe, Label, Input, Comment, Submit } from './ContactElements';
 
 function Contact() {
   return (
@@ -10,9 +10,18 @@ function Contact() {
         <ContactBg>
             <Top3>
                 <Box3>
-                    <StarIconContact src={Star} alt='Star'/>
-                    <ContactTitle>CONTACT</ContactTitle>
-                    <StarIconContact src={Star} alt='Star'/>
+                    <Span3>
+                        <StarIconContact src={Star} alt='Star'/>
+                        <ContactTitle>CONTACT</ContactTitle>
+                        <StarIconContact src={Star} alt='Star'/>
+                        &nbsp;&nbsp;&nbsp;
+                    </Span3>
+                    <Span3>
+                        <StarIconContact src={Star} alt='Star'/>
+                        <ContactTitle>CONTACT</ContactTitle>
+                        <StarIconContact src={Star} alt='Star'/>
+                        &nbsp;&nbsp;&nbsp;
+                    </Span3>
                 </Box3>
             </Top3>
             <ContactContent>
