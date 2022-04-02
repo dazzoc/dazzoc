@@ -109,7 +109,7 @@ export const Worklink = styled.a`
     }
 
     @media screen and (max-width: 480px) {
-        margin: 10px;
+        margin: 10px 0 20px 0;
     }
 `;
 
