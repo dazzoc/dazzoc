@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 
 export const ProjectsContainer = styled.div`
     display: flex;
@@ -55,9 +55,36 @@ export const Box = styled.div`
     }
 `;
 
+export const marquee = keyframes`
+    0% { transform: translate(0, 0) }
+    100% { transform: translate(-100%, 0) }
+`;
+
 export const Span = styled.span`
     display: flex;
     align-items: center;
+    font-size: 3.5rem;
+    padding-left: 100%;
+    white-space: nowrap;
+    min-height: 100%;
+    height: 100%;
+    line-height: 100px;
+    animation-name: ${marquee};
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    -webkit-animation-name: ${marquee};
+    -webkit-animation-duration: 10s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: ${marquee};
+    -moz-animation-duration: 10s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: ${marquee};
+    -ms-animation-duration: 10s;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
 `;
 
 export const StarIcon = styled.img`
@@ -68,7 +95,7 @@ export const StarIcon = styled.img`
 
 export const WorkTitle = styled.h1`
     font-size: 3.5rem;
-    font-weight: 400;
+    font-weight: 500;
     color: #fff;
 `;
 
