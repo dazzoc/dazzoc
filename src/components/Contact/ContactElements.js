@@ -1,5 +1,10 @@
 import styled, { keyframes } from 'styled-components';
 
+export const Spin = keyframes`
+    from { transform: rotate(0deg) }
+    to { transform: rotate(360deg) }
+`;
+
 export const ContactContainer = styled.div`
     display: flex;
     justify-content: center;
@@ -94,7 +99,23 @@ export const StarIconContact = styled.img`
     width: 50px;
     margin: 0 15px;
     filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(171deg) brightness(106%) contrast(95%);
-`
+    animation-name: ${Spin};
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    -webkit-animation-name: ${Spin};
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: ${Spin};
+    -moz-animation-duration: 3s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: ${Spin};
+    -ms-animation-duration: 3s;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+`;
 
 export const ContactTitle = styled.h1`
     font-size: 3.5rem;

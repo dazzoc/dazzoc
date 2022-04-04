@@ -100,6 +100,18 @@ export const StarIconAbout = styled.img`
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
+    -webkit-animation-name: ${Spin};
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: ${Spin};
+    -moz-animation-duration: 3s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: ${Spin};
+    -ms-animation-duration: 3s;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
 `;
 
 export const AboutTitle = styled.h1`

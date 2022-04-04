@@ -34,7 +34,7 @@ function About() {
                         <Title>Developer | Designer | Illustrator</Title>
                         <FunkStar src={FunkyStar} alt='FunkyStar'/>
                         <Info>
-                            L: CHICAGO,IL <br />
+                            L: CHICAGO, IL <br />
                             <br />
                             T: (+1) 630 9355422 <br />
                             <br />
