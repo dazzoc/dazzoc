@@ -11,8 +11,8 @@ const CueProject = () => {
             <SlideWrapper>
 
                 <SliderButtons>
-                    <PrevArrow />
-                    <NextArrow />
+                    <PrevArrow fontSize='large'/>
+                    <NextArrow fontSize='large'/>
                 </SliderButtons>
             </SlideWrapper>
             <InfoContainer>
@@ -21,10 +21,11 @@ const CueProject = () => {
                     
                 </SlideDes>
                 <LinkContainer>
-                    <LinkItem>
+                    <LinkItem href='https://github.com/dazzoc/CueApp' target='_blank' rel="noreferrer">
                         <GitHubIcon />
                     </LinkItem>
-                    <LinkItem>
+                    <LinkItem href='https://cuemusicapp.herokuapp.com/' target='_blank'
+                    rel='noreferrer'>
                         <Deploy>VIEW</Deploy>
                     </LinkItem>
                 </LinkContainer>

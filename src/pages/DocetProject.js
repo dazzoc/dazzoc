@@ -11,8 +11,8 @@ const DocetProject = () => {
             <SlideWrapper>
 
                 <SliderButtons>
-                    <PrevArrow />
-                    <NextArrow />
+                    <PrevArrow fontSize='large'/>
+                    <NextArrow fontSize='large'/>
                 </SliderButtons>
             </SlideWrapper>
             <InfoContainer>
@@ -21,10 +21,10 @@ const DocetProject = () => {
                     
                 </SlideDes>
                 <LinkContainer>
-                    <LinkItem>
+                    <LinkItem href='https://github.com/dazzoc/To-Do-App' target='_blank' rel="noreferrer">
                         <GitHubIcon />
                     </LinkItem>
-                    <LinkItem>
+                    <LinkItem href='https://docet.herokuapp.com/items' target='_blank' rel='noreferrer'>
                         <Deploy>VIEW</Deploy>
                     </LinkItem>
                 </LinkContainer>

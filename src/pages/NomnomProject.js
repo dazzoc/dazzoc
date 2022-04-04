@@ -12,8 +12,8 @@ const NomnomProject = () => {
             <SlideWrapper>
 
                 <SliderButtons>
-                    <PrevArrow />
-                    <NextArrow />
+                    <PrevArrow fontSize='large'/>
+                    <NextArrow fontSize='large'/>
                 </SliderButtons>
             </SlideWrapper>
             <InfoContainer>
@@ -22,10 +22,10 @@ const NomnomProject = () => {
                     NOMNOM IS A RECIPE APP WHERE USERS CAN ADD, UPDATE, AND DELETE THEIR RECIPES. THEY CAN ALSO SEARCH FOR RANDOM RECIPES FORM THE SPOONACULAR API. IN THIS PROJECT I TOOK ON LEAD FRONTEND DEVELOPER / UX/UI DESIGN. FUN PROJECT WERE I CREATED THE LOGO, WIRE FRAMES, MARKUP & THE FRONTEND ARCHITECHTURE TO CREATE A GOOD USER EXPERIENCE. THIS PROJECT USES THE MERN STACK WITH MONGO DB, EXPRESS, REACT AND NODE.
                 </SlideDes>
                 <LinkContainer>
-                    <LinkItem>
+                    <LinkItem href='https://github.com/youngking509/nom-nom-frontend' target='_blank' rel="noreferrer">
                         <GitHubIcon />
                     </LinkItem>
-                    <LinkItem>
+                    <LinkItem href='https://nom-nom.netlify.app/' target='_blank' rel='noreferrer'>
                         <Deploy>VIEW</Deploy>
                     </LinkItem>
                 </LinkContainer>

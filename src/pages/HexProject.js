@@ -11,8 +11,8 @@ const HexProject = () => {
             <SlideWrapper>
 
                 <SliderButtons>
-                    <PrevArrow />
-                    <NextArrow />
+                    <PrevArrow fontSize='large'/>
+                    <NextArrow fontSize='large'/>
                 </SliderButtons>
             </SlideWrapper>
             <InfoContainer>
@@ -21,10 +21,10 @@ const HexProject = () => {
                     
                 </SlideDes>
                 <LinkContainer>
-                    <LinkItem>
+                    <LinkItem href='https://github.com/dazzoc/Hex-Color-App' target='_blank' rel="noreferrer">
                         <GitHubIcon />
                     </LinkItem>
-                    <LinkItem>
+                    <LinkItem href='https://dazzoc.github.io/Hex-Color-App/' target='_blank' rel='noreferrer'>
                         <Deploy>VIEW</Deploy>
                     </LinkItem>
                 </LinkContainer>
