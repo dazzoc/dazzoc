@@ -1,6 +1,7 @@
 import Footer from '../components/Footer';
 import PageNav from '../components/PageNav';
-import { ProjectContainer, ProjectBg, SlideWrapper, SliderButtons, SlideLogo, SlideDes, PrevArrow, NextArrow } from './PageElements';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import { ProjectContainer, ProjectBg, SlideWrapper, SliderButtons, InfoContainer, SlideLogo, SlideDes, LinkContainer, LinkItem, Deploy, PrevArrow, NextArrow } from './PageElements';
 
 const CueProject = () => {
   return (
@@ -14,10 +15,20 @@ const CueProject = () => {
                     <NextArrow />
                 </SliderButtons>
             </SlideWrapper>
-            <SlideLogo />
-            <SlideDes>
-                
-            </SlideDes>
+            <InfoContainer>
+                <SlideLogo />
+                <SlideDes>
+                    
+                </SlideDes>
+                <LinkContainer>
+                    <LinkItem>
+                        <GitHubIcon />
+                    </LinkItem>
+                    <LinkItem>
+                        <Deploy>VIEW</Deploy>
+                    </LinkItem>
+                </LinkContainer>
+            </InfoContainer>
         </ProjectBg>
         <Footer />
     </ProjectContainer>

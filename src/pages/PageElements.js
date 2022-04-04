@@ -12,16 +12,17 @@ export const ProjectBg = styled.div`
     width: 100%;
     height: 800px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
+    /* overflow: hidden; */
     position: relative;
 `;
 
 export const SlideWrapper = styled.div`
-    position: absolute;
+    /* position: absolute;
     top: 0;
-    left: 0;
+    left: 0; */
     width: 100%;
     height: 100%;
     display: flex;
@@ -47,10 +48,40 @@ export const NextArrow = styled(ArrowForwardIosIcon)`
     color: #000;
 `;
 
-export const SlideLogo = styled.div`
+export const InfoContainer = styled.div`
+    display: block;
+`;
+
+export const SlideLogo = styled.img`
     width: 200px;
+    margin-top: 20px;
 `;
 
 export const SlideDes = styled.p`
-    max-width: 800px;
+    max-width: 700px;
+    margin-top: 10px;
+`;
+
+export const Deploy = styled.p`
+    font-weight: 500;
+`;
+
+export const LinkItem = styled.a`
+    text-decoration: none;
+    color: #000;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+        transform: scale(1.1, 1.1);
+        transition: all 0.2s ease-in-out;
+    }
+`;
+
+export const LinkContainer = styled.div`
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
 `;
