@@ -94,7 +94,7 @@ export const NavLinks = styled(LinkS)`
 `;
 
 export const ResumeLink = styled(LinkR)`
-        font-weight: 500;
+    font-weight: 500;
     font-size: 1.3rem;
     color: #000;
     display: flex;

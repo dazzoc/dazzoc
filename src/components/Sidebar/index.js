@@ -1,4 +1,4 @@
-import { SidebarContainer, Icon, Close, SidebarWrapper, SidebarMenu, SidebarLink, SidebarResumeLink } from "./SidebarElements";
+import { SidebarContainer, Icon, Close, SidebarWrapper, SidebarMenu, SidebarLink, ResumeLink } from "./SidebarElements";
 
 const Sidebar = ({ toggle, isOpen }) => {
   return (
@@ -17,9 +17,9 @@ const Sidebar = ({ toggle, isOpen }) => {
                 <SidebarLink to="contact" activeClass='active' spy={true} smooth={true} offset={-100} duration={500} onClick={toggle}>
                     CONTACT
                 </SidebarLink>
-                <SidebarResumeLink>
-                    <a href='https://docs.google.com/document/d/1kyq79oMyecJyijj-btn_68sI1ESiYjq0vkRrNaGUKig/edit' target='_blank' rel="noreferrer" className="resume-sidebar">RESUME</a>
-                </SidebarResumeLink>
+                <SidebarLink>
+                        <ResumeLink to='/resume'>RESUME</ResumeLink>
+                </SidebarLink>
             </SidebarMenu>
         </SidebarWrapper>
     </SidebarContainer>
