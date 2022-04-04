@@ -43,7 +43,7 @@ export const Top3 = styled.div`
 export const Box3 = styled.div`
     max-width: 1100px;
     height: 100px;
-    background: #fe4324;
+    background: #ff2300;
     padding: 20px;
     margin-bottom: 80px;
     display: flex;
@@ -193,7 +193,7 @@ export const Col2 = styled.div`
 export const FormWrapper = styled.div`
     width: 370px;
     height: 460px;
-    background: #fe4324;
+    background: #ff2300;
     padding: 20px;
     border-radius: 8px;
 

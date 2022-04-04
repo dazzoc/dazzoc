@@ -42,7 +42,7 @@ export const Top = styled.div`
 export const Box = styled.div`
     max-width: 1100px;
     height: 100px;
-    background: #fe4324;
+    background: #ff2300;
     padding: 20px;
     display: flex;
     justify-content: center;

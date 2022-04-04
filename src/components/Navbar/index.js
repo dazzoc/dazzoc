@@ -2,7 +2,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import logo from '../../images/dazzo-logo.svg';
 import Star from '../../images/Star-01.svg';
 
-import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavResumeLink, NavIllo, Illo } from './NavbarElements';
+import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavResumeLink, ResumeLink, NavIllo, Illo } from './NavbarElements';
 
 
 const Navbar = ({ toggle }) => {
@@ -27,9 +27,7 @@ const Navbar = ({ toggle }) => {
                         <NavLinks to='contact' activeClass='active' spy={true} smooth={true} offset={-100} duration={500} >CONTACT</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavResumeLink>
-                            <a href='https://docs.google.com/document/d/1kyq79oMyecJyijj-btn_68sI1ESiYjq0vkRrNaGUKig/edit' target='_blank' rel="noreferrer" className="resume-link">RESUME</a>
-                        </NavResumeLink>
+                        <ResumeLink to='/resume'>RESUME</ResumeLink>
                     </NavItem>
                 </NavMenu>
                 <NavIllo>

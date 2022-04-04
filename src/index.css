@@ -23,9 +23,31 @@ a {
   transition: all 0.2s ease-in-out;
 }
 
+.pageNav-Logo{
+  width: 120px;
+  transition: all 0.2s ease-in-out;
+}
+
+.pageNav-Logo:hover {
+  transform: scale(1.1, 1.1);
+  transition: all 0.2s ease-in-out;
+}
+
 .star {
   width: 50px;
   margin-left: 50px;
+  margin-right: 24px;
+  transition: all 0.2s ease-in-out;
+  animation: 1s rotate infinite;
+  -webkit-animation: 1s rotate infinite;
+  -moz-animation: 1s rotate infinite;
+  -o-animation: 1s rotate infinite;
+  animation-play-state: paused;
+}
+
+.pageNav-star {
+  width: 50px;
+  /* margin-left: 50px; */
   margin-right: 24px;
   transition: all 0.2s ease-in-out;
   animation: 1s rotate infinite;
@@ -108,6 +130,15 @@ a {
   margin-right: 40px;
 }
 
+.pdf-container {
+  width: 100%;
+  height: 100vh;
+  background-color: #0c77c3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media screen and (max-width: 768px) {
   .self {
     width: 250px;
@@ -126,6 +157,12 @@ a {
 @media screen and (max-width: 480px) {
   .docet-logo, .cue-logo, .nomnom-logo {
     width: 130px;
+  }
+}
+
+@media screen and (max-width: 307px) {
+  .pageNav-star{
+    margin-right: 10px;
   }
 }
 

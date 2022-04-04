@@ -28,7 +28,7 @@ export const NavbarContainer = styled.div`
     max-width: 1100px;
 `;
 
-export const NavLogo = styled(LinkS)`
+export const NavLogo = styled(LinkR)`
     justify-self: flex-start;
     cursor: pointer;
     display: flex;
@@ -42,76 +42,35 @@ export const NavLogo = styled(LinkS)`
     }
 `;
 
-export const MobileIcon = styled.div`
-    display: none;
-
-    @media screen and (max-width: 768px) {
-        display: block;
-        position: absolute;
-        color: #000;
-        top: 0;
-        right: 0;
-        transform: translate(-100%, 85%) scale(1.3, 1.3);
-        cursor: pointer;
-    }
-`;
-
 export const NavMenu = styled.ul`
     display: flex;
     align-items: center;
     list-style: none;
     text-align: center;
-
-    @media screen and (max-width: 768px) {
-        display: none;
-    }
 `;
 
 export const NavItem = styled.li`
     height: 30px;
 `;
 
-export const NavLinks = styled(LinkS)`
+export const NavLinks = styled(LinkR)`
     font-weight: 500;
     font-size: 1.3rem;
     color: #000;
     display: flex;
     align-items: center;
     text-decoration: none;
-    margin: 0 1rem;
     height: 30px;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
-
-    &.active {
-        border-bottom: 3px solid #000;
-    }
 
     &:hover {
         transform: scale(1.1, 1.1);
         transition: all 0.2s ease-in-out;
     }
-`;
 
-export const ResumeLink = styled(LinkR)`
-        font-weight: 500;
-    font-size: 1.3rem;
-    color: #000;
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    margin: 0 1rem;
-    height: 30px;
-    cursor: pointer;
-    transition: all 0.2s ease-in-out;
-
-    &.active {
-        border-bottom: 3px solid #000;
-    }
-
-    &:hover {
-        transform: scale(1.1, 1.1);
-        transition: all 0.2s ease-in-out;
+    @media screen and (max-width: 400px) {
+        display: none;
     }
 `;
 
@@ -119,14 +78,11 @@ export const NavIllo = styled.div`
     display: flex;
     align-items: center;
     margin-right: 4px;
-
-    @media screen and (max-width: 768px) {
-        display: none;
-    }
 `;
 
 export const Illo = styled.div`
     color: #3c6794;
     display: flex;
     cursor: pointer;
-`
+`;
+

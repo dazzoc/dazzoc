@@ -1,5 +1,10 @@
 import styled, { keyframes } from 'styled-components';
 
+export const Spin = keyframes`
+    from { transform: rotate(0deg) }
+    to { transform: rotate(360deg) }
+`;
+
 export const AboutContainer = styled.div`
     display: flex;
     justify-content: center;
@@ -40,7 +45,7 @@ export const Top2 = styled.div`
 export const Box2 = styled.div`
     max-width: 1100px;
     height: 100px;
-    background: #fe4324;
+    background: #ff2300;
     padding: 20px;
     margin-bottom: 80px;
     display: flex;
@@ -91,7 +96,11 @@ export const StarIconAbout = styled.img`
     width: 50px;
     margin: 0 15px;
     filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(171deg) brightness(106%) contrast(95%);
-`
+    animation-name: ${Spin};
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+`;
 
 export const AboutTitle = styled.h1`
     font-size: 3.5rem;
@@ -151,11 +160,6 @@ export const Title = styled.p`
     @media screen and (max-width: 768px) {
         font-size: .9rem;
     }
-`;
-
-export const Spin = keyframes`
-    from { transform: rotate(0deg) }
-    to { transform: rotate(360deg) }
 `;
 
 export const FunkStar = styled.img`
