@@ -8,7 +8,7 @@ function Resume() {
         <div className="resume-container">
             <PageNav />
              <div className='pdf-container'>
-             <iframe src="https://drive.google.com/file/d/1IZO45hu6K9VJVc6zk1ldImh3trBlb1lG/preview" width="800" height="600" allow="autoplay"></iframe>
+             <iframe src="https://drive.google.com/file/d/1IZO45hu6K9VJVc6zk1ldImh3trBlb1lG/preview" width="800" height="600" allow="autoplay" title='resume'></iframe>
             </div>
             <Footer />
         </div>

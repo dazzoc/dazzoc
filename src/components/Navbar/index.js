@@ -2,7 +2,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import logo from '../../images/dazzo-logo.svg';
 import Star from '../../images/Star-01.svg';
 
-import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavResumeLink, ResumeLink, NavIllo, Illo } from './NavbarElements';
+import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, ResumeLink, NavIllo, Illo } from './NavbarElements';
 
 
 const Navbar = ({ toggle }) => {
