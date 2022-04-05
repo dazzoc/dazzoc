@@ -13,7 +13,7 @@ const PageNav = () => {
                 </NavLogo>
                 <NavMenu>
                     <NavItem>
-                        <NavLinks to='/'>HOME</NavLinks>
+                        <NavLinks to="/">HOME</NavLinks>
                     </NavItem>
                 </NavMenu>
                 <NavIllo>

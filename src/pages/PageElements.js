@@ -15,13 +15,14 @@ export const ProjectBg = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
     /* overflow: hidden; */
     /* position: relative; */
 `;
 
 export const SlideWrapper = styled.div`
     width: 700px;
-    height: 450px;
+    height: 500px;
     background-color: #ffa0cd;
     padding: 40px;
     display: flex;
@@ -31,7 +32,7 @@ export const SlideWrapper = styled.div`
 
 export const SliderButtons = styled.div`
     position: absolute;
-    top: 40%;
+    top: 45%;
     display: flex;
     justify-content: space-between;
     width: 780px;
@@ -40,10 +41,12 @@ export const SliderButtons = styled.div`
 
 export const PrevArrow = styled(ArrowBackIosIcon)`
     color: #000;
+    cursor: pointer;
 `;
 
 export const NextArrow = styled(ArrowForwardIosIcon)`
     color: #000;
+    cursor: pointer;
 `;
 
 export const InfoContainer = styled.div`
@@ -96,4 +99,21 @@ export const LinkContainer = styled.div`
     justify-content: flex-start;
     align-items: center;
     margin-top: 10px;
+`;
+
+export const PageSlide = styled.div`
+    z-index: 1;
+`;
+
+export const PageSlider = styled.div`
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+`;
+
+export const PageImage = styled.img`
+    width: 100%;
+    object-fit: cover;
 `;
