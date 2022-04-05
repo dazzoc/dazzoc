@@ -27,18 +27,18 @@ function Projects() {
             <ProjectsContent>
                 <WorkContainer>
                     <WorkRow>
-                        <Worklink href='https://nom-nom.netlify.app/' target="_blank" rel="noreferrer">
+                        <Worklink to="/nomnom">
                             <img src={ nomnom } alt="NomNom" className='nomnom-logo'/>
                         </Worklink>
-                        <Worklink href='https://cuemusicapp.herokuapp.com/' target="_blank" rel="noreferrer">
+                        <Worklink to="/cue">
                             <img src={ cue } alt="Cue" className='cue-logo'/>
                         </Worklink>
                     </WorkRow>
                     <WorkRow>
-                        <Worklink href='https://docet.herokuapp.com/' target="_blank" rel="noreferrer">
+                        <Worklink to="/docet">
                             <img src={ docet } alt="Docet" className='docet-logo'/>
                         </Worklink>
-                        <Worklink href='https://dazzoc.github.io/Hex-Color-App/' target="_blank" rel="noreferrer">
+                        <Worklink to="/hex">
                             <Hex>HEX: <br />
                                 COLOR <br />
                                 APP <br />

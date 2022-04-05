@@ -1,4 +1,5 @@
 import styled, { keyframes } from 'styled-components';
+import { Link as LinkR } from 'react-router-dom';
 
 export const Spin = keyframes`
     from { transform: rotate(0deg) }
@@ -142,7 +143,7 @@ export const WorkRow = styled.div`
     }
 `;
 
-export const Worklink = styled.a`
+export const Worklink = styled(LinkR)`
     text-decoration: none;
     cursor: pointer;
     margin: 20px 40px;

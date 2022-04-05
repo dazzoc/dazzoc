@@ -15,19 +15,19 @@ function App() {
         <Route exact path="/">
           <Home />
         </Route>
-        <Route path="/resume">
+        <Route exact path="/resume">
           <Resume />
         </Route>
-        <Route path="/nomnom">
+        <Route exact path="/nomnom">
           <NomnomProject slides={NomNomImages}/>
         </Route>
-        <Route path="/cue">
+        <Route exact path="/cue">
           <CueProject slides={CueImages}/>
         </Route>
-        <Route path="/docet">
+        <Route exact path="/docet">
           <DocetProject slides={DocetImages}/>
         </Route>
-        <Route path="/hex">
+        <Route exact path="/hex">
           <HexProject slides={HexImages}/>
         </Route>
       </Switch>
