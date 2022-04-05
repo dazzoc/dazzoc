@@ -28,6 +28,21 @@ export const SlideWrapper = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+
+    @media screen and (max-width: 768px) {
+        width: 500px;
+        height: 321px;
+    }
+
+    @media screen and (max-width: 520px) {
+        width: 400px;
+        height: 257px;
+    }
+
+    @media screen and (max-width: 420px) {
+        width: 300px;
+        height: 192px;
+    }
 `;
 
 export const SliderButtons = styled.div`
@@ -37,6 +52,15 @@ export const SliderButtons = styled.div`
     justify-content: space-between;
     width: 780px;
     z-index: 10;
+
+    @media screen and (max-width: 768px) {
+        width: 580px;
+        top: 35%;
+    }
+    
+    @media screen and (max-width: 580px) {
+        display: none;
+    }
 `;
 
 export const PrevArrow = styled(ArrowBackIosIcon)`
@@ -56,17 +80,38 @@ export const InfoContainer = styled.div`
 export const SlideLogo = styled.img`
     width: 200px;
     margin-top: 20px;
+
+    @media screen and (max-width: 420px) {
+        width: 150px;
+    }
 `;
 
 export const HexLogo = styled.h1`
     font-size: 3rem;
     font-weight: 600;
     margin-top: 20px;
+
+    @media screen and (max-width: 420px) {
+        font-size: 2.7rem;
+    }
 `;
 
 export const SlideDes = styled.p`
     max-width: 700px;
     margin-top: 10px;
+
+    @media screen and (max-width: 768px) {
+        width: 500px;
+    }
+
+    @media screen and (max-width: 520px) {
+        width: 400px;
+    }
+
+    @media screen and (max-width: 420px) {
+        width: 300px;
+        font-size: .8rem;
+    }
 `;
 
 export const Deploy = styled.p`
