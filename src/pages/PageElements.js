@@ -68,6 +68,14 @@ export const SlideDes = styled.p`
 
 export const Deploy = styled.p`
     font-weight: 500;
+    width: 80px;
+    height: 30px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
 `;
 
 export const LinkItem = styled.a`
@@ -78,7 +86,7 @@ export const LinkItem = styled.a`
     transition: all 0.2s ease-in-out;
 
     &:hover {
-        transform: scale(1.1, 1.1);
+        transform: translateY(-2px);
         transition: all 0.2s ease-in-out;
     }
 `;

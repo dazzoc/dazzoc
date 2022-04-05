@@ -22,12 +22,12 @@ const CueProject = () => {
                     CUE IS A MUSIC TRACKING APP WHERE USERS CAN ADD, UPDATE AND DELETE THE ALBUMS THEY ARE LISTENING TO. USERS CAN ALSO ADD WHAT DEVICE THEY LISTENED ON AND WHAT MOOD THEY WERE IN WHEN LISTENING. THIS APP WAS WRITTEN IN PYTHON AND DJANGO WITH HTML5 AND CSS3 WITH POSTGRESQL DATA BASE. I ENJOYED CREATING THE INTERFACE AND WIRE FRAMING THE PROJECT.
                 </SlideDes>
                 <LinkContainer>
-                    <LinkItem href='https://github.com/dazzoc/CueApp' target='_blank' rel="noreferrer">
-                        <GitHubIcon />
-                    </LinkItem>
                     <LinkItem href='https://cuemusicapp.herokuapp.com/' target='_blank'
                     rel='noreferrer'>
                         <Deploy>VIEW</Deploy>
+                    </LinkItem>
+                    <LinkItem href='https://github.com/dazzoc/CueApp' target='_blank' rel="noreferrer">
+                        <Deploy>GITHUB</Deploy>
                     </LinkItem>
                 </LinkContainer>
             </InfoContainer>
