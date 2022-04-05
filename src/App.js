@@ -8,6 +8,7 @@ import Resume from "./pages/resume";
 import { NomNomImages, CueImages, HexImages, DocetImages } from './data/SliderData';
 
 
+
 function App() {
   return (
     <div className="App">

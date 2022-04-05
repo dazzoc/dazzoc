@@ -13,7 +13,7 @@ export const ProjectBg = styled.div`
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     margin-top: 50px;
     /* overflow: hidden; */
@@ -22,9 +22,9 @@ export const ProjectBg = styled.div`
 
 export const SlideWrapper = styled.div`
     width: 700px;
-    height: 500px;
+    height: 450px;
     background-color: #ffa0cd;
-    padding: 40px;
+    /* padding: 40px; */
     display: flex;
     align-items: center;
     justify-content: center;
