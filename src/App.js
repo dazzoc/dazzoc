@@ -5,6 +5,7 @@ import DocetProject from "./pages/DocetProject";
 import HexProject from "./pages/HexProject";
 import NomnomProject from "./pages/NomnomProject";
 import Resume from "./pages/resume";
+import { NomNomImages, CueImages, HexImages, DocetImages } from './data/SliderData';
 
 
 function App() {
@@ -18,16 +19,16 @@ function App() {
           <Resume />
         </Route>
         <Route path="/nomnom">
-          <NomnomProject />
+          <NomnomProject slides={NomNomImages}/>
         </Route>
         <Route path="/cue">
-          <CueProject />
+          <CueProject slides={CueImages}/>
         </Route>
         <Route path="/docet">
-          <DocetProject />
+          <DocetProject slides={DocetImages}/>
         </Route>
         <Route path="/hex">
-          <HexProject />
+          <HexProject slides={HexImages}/>
         </Route>
       </Switch>
     </div>

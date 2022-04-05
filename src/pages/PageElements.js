@@ -20,7 +20,7 @@ export const ProjectBg = styled.div`
 `;
 
 export const SlideWrapper = styled.div`
-    width: 800px;
+    width: 700px;
     height: 450px;
     background-color: #ffa0cd;
     padding: 40px;
@@ -34,7 +34,7 @@ export const SliderButtons = styled.div`
     top: 40%;
     display: flex;
     justify-content: space-between;
-    width: 80%;
+    width: 780px;
     z-index: 10;
 `;
 
@@ -52,6 +52,12 @@ export const InfoContainer = styled.div`
 
 export const SlideLogo = styled.img`
     width: 200px;
+    margin-top: 20px;
+`;
+
+export const HexLogo = styled.h1`
+    font-size: 3rem;
+    font-weight: 600;
     margin-top: 20px;
 `;
 
