@@ -5,6 +5,7 @@ import DocetProject from "./pages/DocetProject";
 import HexProject from "./pages/HexProject";
 import NomnomProject from "./pages/NomnomProject";
 import Resume from "./pages/resume";
+import ScrollToTop from './components/scrollToTop';
 import { NomNomImages, CueImages, HexImages, DocetImages } from './data/SliderData';
 
 
@@ -17,19 +18,29 @@ function App() {
           <Home />
         </Route>
         <Route exact path="/resume">
-          <Resume />
+          <ScrollToTop>
+            <Resume />
+          </ScrollToTop>
         </Route>
         <Route exact path="/nomnom">
-          <NomnomProject slides={NomNomImages}/>
+          <ScrollToTop>
+            <NomnomProject slides={NomNomImages}/>
+          </ScrollToTop>
         </Route>
         <Route exact path="/cue">
-          <CueProject slides={CueImages}/>
+          <ScrollToTop>
+            <CueProject slides={CueImages}/>
+          </ScrollToTop>
         </Route>
         <Route exact path="/docet">
-          <DocetProject slides={DocetImages}/>
+          <ScrollToTop>
+            <DocetProject slides={DocetImages}/>
+          </ScrollToTop>
         </Route>
         <Route exact path="/hex">
-          <HexProject slides={HexImages}/>
+          <ScrollToTop>
+            <HexProject slides={HexImages}/>
+          </ScrollToTop>
         </Route>
       </Switch>
     </div>
