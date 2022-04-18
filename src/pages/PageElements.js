@@ -47,7 +47,7 @@ export const SlideWrapper = styled.div`
 
 export const SliderButtons = styled.div`
     position: absolute;
-    top: 45%;
+    top: 40%;
     display: flex;
     justify-content: space-between;
     width: 780px;
@@ -55,7 +55,7 @@ export const SliderButtons = styled.div`
 
     @media screen and (max-width: 768px) {
         width: 580px;
-        top: 35%;
+        top: 32%;
     }
     
     @media screen and (max-width: 580px) {
