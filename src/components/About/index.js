@@ -48,7 +48,7 @@ function About() {
                         <ArrowDown1 src={Arrowdown} alt='ArrowDown'/>
                     </Bio>
                     <Descrip>
-                        Chris Dazzo is a Developer with a background in design and illustration. He has had a lifetime passion to build things that look good and function seamlessly. He started off re-drawing skateboard logo and building quarter pipes in the driveway. Chris fell in love with programing and web development where he is working and building his skills everyday. 
+                        Chris Dazzo is a Developer with a background in design and illustration. He has had a lifetime passion to build things that look good and function seamlessly. He started off re-drawing skateboard logos and building quarter pipes in the driveway. Chris fell in love with programing and web development where he is working and building his skills everyday. 
                     </Descrip>
                 </Row2>
             </AboutContent>
