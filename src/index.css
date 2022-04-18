@@ -61,6 +61,10 @@ a {
   animation-play-state: running;
 }
 
+.illo-container:hover .pageNav-star {
+  animation-play-state: running;
+}
+
 @keyframes rotate {
   0%{
     transform: rotate(0deg);
