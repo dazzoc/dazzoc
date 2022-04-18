@@ -146,6 +146,18 @@ export const LinkContainer = styled.div`
     margin-top: 10px;
 `;
 
+export const DocContainer = styled.div`
+    margin-top: 24px;
+    width: 800px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    @media screen and (max-width: 800px) {
+        width: 90%;
+    }
+`
+
 export const PageSlide = styled.div`
     z-index: 1;
 `;

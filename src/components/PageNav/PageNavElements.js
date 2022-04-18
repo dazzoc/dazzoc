@@ -41,37 +41,37 @@ export const NavLogo = styled(LinkR)`
     }
 `;
 
-export const NavMenu = styled.ul`
-    display: flex;
-    align-items: center;
-    list-style: none;
-    text-align: center;
-`;
+// export const NavMenu = styled.ul`
+//     display: flex;
+//     align-items: center;
+//     list-style: none;
+//     text-align: center;
+// `;
 
-export const NavItem = styled.li`
-    height: 30px;
-`;
+// export const NavItem = styled.li`
+//     height: 30px;
+// `;
 
-export const NavLinks = styled(LinkR)`
-    font-weight: 500;
-    font-size: 1.3rem;
-    color: #000;
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    height: 30px;
-    cursor: pointer;
-    transition: all 0.2s ease-in-out;
+// export const NavLinks = styled(LinkR)`
+//     font-weight: 500;
+//     font-size: 1.3rem;
+//     color: #000;
+//     display: flex;
+//     align-items: center;
+//     text-decoration: none;
+//     height: 30px;
+//     cursor: pointer;
+//     transition: all 0.2s ease-in-out;
 
-    &:hover {
-        transform: scale(1.1, 1.1);
-        transition: all 0.2s ease-in-out;
-    }
+//     &:hover {
+//         transform: scale(1.1, 1.1);
+//         transition: all 0.2s ease-in-out;
+//     }
 
-    @media screen and (max-width: 400px) {
-        display: none;
-    }
-`;
+//     @media screen and (max-width: 400px) {
+//         display: none;
+//     }
+// `;
 
 export const NavIllo = styled.div`
     display: flex;

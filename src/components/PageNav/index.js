@@ -1,7 +1,7 @@
 import logo from '../../images/dazzo-logo.svg';
 import Star from '../../images/Star-01.svg';
 
-import { Nav, NavbarContainer, NavLogo, NavMenu, NavItem, NavLinks, NavIllo, Illo } from './PageNavElements';
+import { Nav, NavbarContainer, NavLogo, NavIllo, Illo } from './PageNavElements';
 
 const PageNav = () => {
   return (
@@ -11,11 +11,6 @@ const PageNav = () => {
                 <NavLogo to="/">
                     <img src={logo} alt="Logo" className="pageNav-Logo"/>
                 </NavLogo>
-                <NavMenu>
-                    <NavItem>
-                        <NavLinks to="/">HOME</NavLinks>
-                    </NavItem>
-                </NavMenu>
                 <NavIllo>
                     <Illo>
                         <div className="illo-container">
