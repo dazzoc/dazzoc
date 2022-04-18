@@ -23,7 +23,7 @@ export const ProjectBg = styled.div`
 export const SlideWrapper = styled.div`
     width: 700px;
     height: 450px;
-    background-color: #ffa0cd;
+    background-color: #fff;
     /* padding: 40px; */
     display: flex;
     align-items: center;
