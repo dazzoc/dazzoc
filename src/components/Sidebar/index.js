@@ -8,11 +8,11 @@ const Sidebar = ({ toggle, isOpen }) => {
         </Icon>
         <SidebarWrapper>
             <SidebarMenu>
-                <SidebarLink to="about" activeClass='active' spy={true} smooth={true} offset={-100} duration={500} onClick={toggle}>
-                    ABOUT
-                </SidebarLink>
                 <SidebarLink to="work" activeClass='active' spy={true} smooth={true} offset={-100} duration={500} onClick={toggle}>
                     WORK
+                </SidebarLink>
+                <SidebarLink to="about" activeClass='active' spy={true} smooth={true} offset={-100} duration={500} onClick={toggle}>
+                    ABOUT
                 </SidebarLink>
                 <SidebarLink to="contact" activeClass='active' spy={true} smooth={true} offset={-100} duration={500} onClick={toggle}>
                     CONTACT
